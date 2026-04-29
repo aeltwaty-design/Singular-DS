@@ -1,0 +1,13 @@
+{
+  "name": "@singular/tokens",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "generate": "tsx generate.ts",
+    "check": "tsx generate.ts --check"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

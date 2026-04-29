@@ -1,0 +1,57 @@
+name: Button
+category: call-to-actions
+status: stable
+description: Interactive element for triggering actions.
+descriptionAr: عنصر تفاعلي لتشغيل الإجراءات.
+
+variants:
+  variant:
+    values: [primary, secondary, tertiary, outline]
+    default: primary
+  size:
+    values:
+      sm: { height: 30 }
+      md: { height: 41 }
+      lg: { height: 48 }
+      xl: { height: 59 }
+    default: md
+
+props:
+  label:
+    type: string
+    required: true
+    flutter_name: label
+    react_name: children
+  leftIcon:
+    type: icon
+    required: false
+  rightIcon:
+    type: icon
+    required: false
+  loading:
+    type: boolean
+    default: false
+  disabled:
+    type: boolean
+    default: false
+  danger:
+    type: boolean
+    default: false
+    description: Use error/destructive color scheme.
+  fullWidth:
+    type: boolean
+    default: false
+
+tokens:
+  background_primary: bg-brand-solid
+  background_primary_hover: bg-brand-solid_hover
+  background_secondary: bg-brand-primary
+  text_primary: text-primary_on-brand
+  text_secondary: text-brand-secondary
+  border_outline: border-primary
+  border-radius: sm (sm), xl (md/lg), 2xl (xl)
+
+naming:
+  flutter_class: SingularButton
+  react_export: Button
+  figma_name: Button

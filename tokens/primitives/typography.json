@@ -1,0 +1,77 @@
+{
+  "families": {
+    "flutter": {
+      "en": { "name": "Poppins", "fallback": ["sans-serif"] },
+      "ar": { "name": "FF Shamel Unique", "fallback": ["sans-serif"] }
+    },
+    "web": {
+      "display": { "name": "Inter", "fallback": ["system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"], "variable": "--font-inter" },
+      "body": { "name": "Inter", "fallback": ["system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"], "variable": "--font-inter" },
+      "mono": { "name": "JetBrains Mono", "fallback": ["Menlo", "Monaco", "Consolas", "monospace"], "variable": "--font-mono" }
+    }
+  },
+  "weights": {
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700
+  },
+  "scale": {
+    "displayLarge":   { "fontSize": 57, "fontWeight": "bold",     "letterSpacingEn": -0.25, "letterSpacingAr": 0, "lineHeightEn": 1.12, "lineHeightAr": 1.20 },
+    "displayMedium":  { "fontSize": 45, "fontWeight": "bold",     "letterSpacingEn": 0,     "letterSpacingAr": 0, "lineHeightEn": 1.16, "lineHeightAr": 1.24 },
+    "displaySmall":   { "fontSize": 36, "fontWeight": "bold",     "letterSpacingEn": 0,     "letterSpacingAr": 0, "lineHeightEn": 1.22, "lineHeightAr": 1.28 },
+    "headlineLarge":  { "fontSize": 32, "fontWeight": "semibold", "letterSpacingEn": 0,     "letterSpacingAr": 0, "lineHeightEn": 1.25, "lineHeightAr": 1.30 },
+    "headlineMedium": { "fontSize": 28, "fontWeight": "semibold", "letterSpacingEn": 0,     "letterSpacingAr": 0, "lineHeightEn": 1.29, "lineHeightAr": 1.34 },
+    "headlineSmall":  { "fontSize": 24, "fontWeight": "semibold", "letterSpacingEn": 0,     "letterSpacingAr": 0, "lineHeightEn": 1.33, "lineHeightAr": 1.38 },
+    "titleLarge":     { "fontSize": 22, "fontWeight": "medium",   "letterSpacingEn": 0,     "letterSpacingAr": 0, "lineHeightEn": 1.27, "lineHeightAr": 1.32 },
+    "titleMedium":    { "fontSize": 16, "fontWeight": "medium",   "letterSpacingEn": 0.15,  "letterSpacingAr": 0, "lineHeightEn": 1.50, "lineHeightAr": 1.56 },
+    "titleSmall":     { "fontSize": 14, "fontWeight": "medium",   "letterSpacingEn": 0.1,   "letterSpacingAr": 0, "lineHeightEn": 1.43, "lineHeightAr": 1.48 },
+    "labelLarge":     { "fontSize": 14, "fontWeight": "medium",   "letterSpacingEn": 0.1,   "letterSpacingAr": 0, "lineHeightEn": 1.43, "lineHeightAr": 1.48 },
+    "labelMedium":    { "fontSize": 12, "fontWeight": "medium",   "letterSpacingEn": 0.5,   "letterSpacingAr": 0, "lineHeightEn": 1.33, "lineHeightAr": 1.40 },
+    "labelSmall":     { "fontSize": 11, "fontWeight": "medium",   "letterSpacingEn": 0.5,   "letterSpacingAr": 0, "lineHeightEn": 1.45, "lineHeightAr": 1.50 },
+    "bodyLarge":      { "fontSize": 16, "fontWeight": "regular",  "letterSpacingEn": 0.5,   "letterSpacingAr": 0, "lineHeightEn": 1.50, "lineHeightAr": 1.56 },
+    "bodyMedium":     { "fontSize": 14, "fontWeight": "regular",  "letterSpacingEn": 0.25,  "letterSpacingAr": 0, "lineHeightEn": 1.43, "lineHeightAr": 1.48 },
+    "bodySmall":      { "fontSize": 12, "fontWeight": "regular",  "letterSpacingEn": 0.4,   "letterSpacingAr": 0, "lineHeightEn": 1.33, "lineHeightAr": 1.40 }
+  },
+  "webHeadings": {
+    "_comment": "Web-specific heading scale (different from M3 scale used in Flutter)",
+    "en": {
+      "2xl": { "size": "72px", "lineHeight": "90px" },
+      "xl": { "size": "60px", "lineHeight": "72px" },
+      "lg": { "size": "48px", "lineHeight": "60px" },
+      "md": { "size": "36px", "lineHeight": "44px" },
+      "sm": { "size": "30px", "lineHeight": "38px" },
+      "xs": { "size": "24px", "lineHeight": "32px" },
+      "2xs": { "size": "20px", "lineHeight": "28px" }
+    },
+    "ar": {
+      "2xl": { "size": "72px", "lineHeight": "90px" },
+      "xl": { "size": "60px", "lineHeight": "72px" },
+      "lg": { "size": "48px", "lineHeight": "60px" },
+      "md": { "size": "36px", "lineHeight": "44px" },
+      "sm": { "size": "30px", "lineHeight": "38px" },
+      "xs": { "size": "24px", "lineHeight": "32px" },
+      "2xs": { "size": "20px", "lineHeight": "28px" }
+    }
+  },
+  "webText": {
+    "en": {
+      "2xl": { "size": "24px", "lineHeight": "32px" },
+      "xl": { "size": "20px", "lineHeight": "30px" },
+      "lg": { "size": "18px", "lineHeight": "28px" },
+      "md": { "size": "16px", "lineHeight": "24px" },
+      "sm": { "size": "14px", "lineHeight": "20px" },
+      "xs": { "size": "12px", "lineHeight": "18px" },
+      "2xs": { "size": "10px", "lineHeight": "14px" }
+    },
+    "ar": {
+      "2xl": { "size": "24px", "lineHeight": "32px" },
+      "xl": { "size": "24px", "lineHeight": "30px" },
+      "lg": { "size": "18px", "lineHeight": "28px" },
+      "md": { "size": "16px", "lineHeight": "24px" },
+      "sm": { "size": "14px", "lineHeight": "20px" },
+      "xs": { "size": "12px", "lineHeight": "18px" },
+      "2xs": { "size": "10px", "lineHeight": "14px" }
+    }
+  }
+}

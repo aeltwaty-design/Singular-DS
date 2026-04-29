@@ -1,0 +1,50 @@
+name: singular_design_system
+description: A multi-brand, scalable Design System for WalaPlus, WalaOne, and Doam products.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Google Fonts for Poppins
+  google_fonts: ^6.1.0
+  
+  # Iconsax icons (matching docs-website iconsax-react)
+  iconsax_flutter: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Linting
+  flutter_lints: ^3.0.0
+  
+  # Widgetbook for documentation
+  widgetbook: ^3.4.1
+  widgetbook_annotation: ^3.1.0
+  widgetbook_generator: ^3.6.0
+  
+  # Build runner for code generation
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  
+  # NOTE: Local font assets (FF Shamel Unique) - Uncomment when font files are added
+  # fonts:
+  #   - family: FF Shamel Unique
+  #     fonts:
+  #       - asset: assets/fonts/ff_shamel_unique/FFShamelUnique-Regular.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/ff_shamel_unique/FFShamelUnique-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/ff_shamel_unique/FFShamelUnique-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/ff_shamel_unique/FFShamelUnique-Bold.ttf
+  #         weight: 700
+

@@ -1,0 +1,72 @@
+name: InputField
+category: data-entry
+status: stable
+description: Text input field with support for various types and adornments.
+descriptionAr: حقل إدخال نصي مع دعم لأنواع وزخارف متنوعة.
+
+variants:
+  type:
+    values: [simple, leadingIcon, trailingAction, textarea, password, leadingDropdown, trailingDropdown, phoneNumber, leadingText, tags]
+    default: simple
+    description: Input field layout variant.
+  size:
+    values:
+      sm: { height: 40 }
+      lg: { height: 48 }
+    default: lg
+
+props:
+  label:
+    type: string
+    required: false
+    description: Field label above the input.
+  placeholder:
+    type: string
+    required: false
+    description: Placeholder text.
+    flutter_name: hint
+  value:
+    type: string
+    required: false
+  leadingIcon:
+    type: icon
+    required: false
+  trailingIcon:
+    type: icon
+    required: false
+  error:
+    type: boolean
+    default: false
+    description: Error state.
+    flutter_name: danger
+  errorMessage:
+    type: string
+    required: false
+    description: Error message displayed below the input.
+  helperText:
+    type: string
+    required: false
+  disabled:
+    type: boolean
+    default: false
+  fullWidth:
+    type: boolean
+    default: true
+  onChange:
+    type: callback
+    required: false
+    flutter_name: onChanged
+
+tokens:
+  background: bg-primary
+  text: text-primary
+  placeholder: text-placeholder
+  border_default: border-primary
+  border_focus: border-brand
+  border_error: border-error
+  label: text-secondary
+
+naming:
+  flutter_class: SingularInputField
+  react_export: InputField
+  figma_name: Input Field

@@ -1,0 +1,27 @@
+{
+  "scale": {
+    "none": 0,
+    "xxs": 2,
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 20,
+    "xxl": 24,
+    "section": 32,
+    "sectionLg": 48,
+    "sectionXl": 64
+  },
+  "layout": {
+    "mobile": { "pageMargin": 16, "gutter": 16 },
+    "tablet": { "pageMargin": 32, "gutter": 24 },
+    "desktop": { "pageMargin": 64, "gutter": 32 }
+  },
+  "baseUnit": 4,
+  "webNumericScale": {
+    "_comment": "Additional numeric keys for web Tailwind spacing. Maps to the named scale where possible.",
+    "0": 0, "1": 4, "2": 8, "3": 12, "4": 16, "5": 20, "6": 24,
+    "8": 32, "10": 40, "12": 48, "16": 64, "20": 80, "24": 96,
+    "32": 128, "40": 160, "48": 192, "56": 224, "64": 256
+  }
+}

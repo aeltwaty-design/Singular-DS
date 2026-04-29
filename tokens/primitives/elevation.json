@@ -1,0 +1,46 @@
+{
+  "light": {
+    "shadowColor": "#0F172A",
+    "levels": {
+      "0": [],
+      "1": [
+        { "color": "#0F172A", "alpha": 0.04, "blur": 2, "offsetX": 0, "offsetY": 1 },
+        { "color": "#0F172A", "alpha": 0.06, "blur": 4, "offsetX": 0, "offsetY": 2 }
+      ],
+      "2": [
+        { "color": "#0F172A", "alpha": 0.04, "blur": 4, "offsetX": 0, "offsetY": 2 },
+        { "color": "#0F172A", "alpha": 0.08, "blur": 8, "offsetX": 0, "offsetY": 4 }
+      ],
+      "3": [
+        { "color": "#0F172A", "alpha": 0.04, "blur": 8, "offsetX": 0, "offsetY": 4 },
+        { "color": "#0F172A", "alpha": 0.10, "blur": 16, "offsetX": 0, "offsetY": 8 }
+      ],
+      "4": [
+        { "color": "#0F172A", "alpha": 0.06, "blur": 12, "offsetX": 0, "offsetY": 8 },
+        { "color": "#0F172A", "alpha": 0.12, "blur": 24, "offsetX": 0, "offsetY": 16 }
+      ]
+    }
+  },
+  "dark": {
+    "shadowColor": "#000000",
+    "levels": {
+      "0": [],
+      "1": [
+        { "color": "#000000", "alpha": 0.16, "blur": 2, "offsetX": 0, "offsetY": 1 },
+        { "color": "#000000", "alpha": 0.20, "blur": 4, "offsetX": 0, "offsetY": 2 }
+      ],
+      "2": [
+        { "color": "#000000", "alpha": 0.16, "blur": 4, "offsetX": 0, "offsetY": 2 },
+        { "color": "#000000", "alpha": 0.24, "blur": 8, "offsetX": 0, "offsetY": 4 }
+      ],
+      "3": [
+        { "color": "#000000", "alpha": 0.20, "blur": 8, "offsetX": 0, "offsetY": 4 },
+        { "color": "#000000", "alpha": 0.28, "blur": 16, "offsetX": 0, "offsetY": 8 }
+      ],
+      "4": [
+        { "color": "#000000", "alpha": 0.24, "blur": 12, "offsetX": 0, "offsetY": 8 },
+        { "color": "#000000", "alpha": 0.32, "blur": 24, "offsetX": 0, "offsetY": 16 }
+      ]
+    }
+  }
+}

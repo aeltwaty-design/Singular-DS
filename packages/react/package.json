@@ -1,0 +1,72 @@
+{
+  "name": "@singular/react",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Singular Design System - React Components. Framework-agnostic, no dependency on Next.js.",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "require": "./src/index.ts"
+    },
+    "./tailwind-preset": {
+      "types": "./tailwind-preset.ts",
+      "import": "./tailwind-preset.ts",
+      "require": "./tailwind-preset.ts"
+    },
+    "./components/*": {
+      "types": "./src/components/*/index.ts",
+      "import": "./src/components/*/index.ts"
+    },
+    "./providers": {
+      "types": "./src/providers/SingularProvider.tsx",
+      "import": "./src/providers/SingularProvider.tsx"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "src/",
+    "tailwind-preset.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "framer-motion": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "iconsax-react": "^0.0.8",
+    "lucide-react": "^0.400.0",
+    "tailwind-merge": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "framer-motion": ">=10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "singular",
+    "design-system",
+    "react",
+    "components",
+    "ui",
+    "walaplus",
+    "walaone",
+    "doam"
+  ]
+}

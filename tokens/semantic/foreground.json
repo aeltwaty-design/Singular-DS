@@ -1,0 +1,22 @@
+[
+  { "name": "fg-primary", "light": "gray-900", "dark": "white", "description": "Highest contrast foreground elements.", "descriptionAr": "عناصر المقدمة ذات التباين الأعلى." },
+  { "name": "fg-secondary", "light": "gray-700", "dark": "gray-300", "description": "High contrast foreground elements.", "descriptionAr": "عناصر المقدمة عالية التباين." },
+  { "name": "fg-secondary_hover", "light": "gray-800", "dark": "gray-200", "description": "Secondary foreground hover.", "descriptionAr": "عناصر المقدمة الثانوية عند التمرير." },
+  { "name": "fg-tertiary", "light": "gray-600", "dark": "gray-400", "description": "Medium contrast foreground.", "descriptionAr": "عناصر المقدمة متوسطة التباين." },
+  { "name": "fg-tertiary_hover", "light": "gray-700", "dark": "gray-300", "description": "Tertiary foreground hover.", "descriptionAr": "عناصر المقدمة الثالثية عند التمرير." },
+  { "name": "fg-quaternary", "light": "gray-400", "dark": "gray-600", "description": "Low contrast foreground.", "descriptionAr": "عناصر المقدمة منخفضة التباين." },
+  { "name": "fg-quaternary_hover", "light": "gray-500", "dark": "gray-500", "description": "Quaternary foreground hover.", "descriptionAr": "عناصر المقدمة الرباعية عند التمرير." },
+  { "name": "fg-white", "light": "white", "dark": "white", "description": "Always white foreground.", "descriptionAr": "عناصر المقدمة البيضاء دائمًا." },
+  { "name": "fg-disabled", "light": "gray-400", "dark": "gray-500", "description": "Disabled foreground.", "descriptionAr": "عناصر المقدمة المعطلة." },
+  { "name": "fg-disabled_subtle", "light": "gray-300", "dark": "gray-600", "description": "Subtle disabled foreground.", "descriptionAr": "بديل أكثر دقة للمقدمة المعطلة." },
+  { "name": "fg-brand-primary", "light": "primary-600", "dark": "primary-500", "description": "Primary brand foreground.", "descriptionAr": "مقدمة العلامة التجارية الأساسية." },
+  { "name": "fg-brand-primary_alt", "light": "primary-600", "dark": "gray-300", "description": "Alt brand foreground.", "descriptionAr": "بديل مقدمة العلامة التجارية." },
+  { "name": "fg-brand-secondary", "light": "primary-500", "dark": "primary-500", "description": "Secondary brand foreground.", "descriptionAr": "مقدمة العلامة التجارية الثانوية." },
+  { "name": "fg-brand-secondary_alt", "light": "primary-500", "dark": "gray-600", "description": "Alt secondary brand foreground.", "descriptionAr": "بديل مقدمة العلامة التجارية الثانوية." },
+  { "name": "fg-error-primary", "light": "error-600", "dark": "error-500", "description": "Error foreground.", "descriptionAr": "مقدمة حالة الخطأ." },
+  { "name": "fg-error-secondary", "light": "error-500", "dark": "error-400", "description": "Secondary error foreground.", "descriptionAr": "مقدمة حالة الخطأ الثانوية." },
+  { "name": "fg-warning-primary", "light": "warning-600", "dark": "warning-500", "description": "Warning foreground.", "descriptionAr": "مقدمة حالة التحذير." },
+  { "name": "fg-warning-secondary", "light": "warning-500", "dark": "warning-400", "description": "Secondary warning foreground.", "descriptionAr": "مقدمة حالة التحذير الثانوية." },
+  { "name": "fg-success-primary", "light": "success-600", "dark": "success-500", "description": "Success foreground.", "descriptionAr": "مقدمة حالة النجاح." },
+  { "name": "fg-success-secondary", "light": "success-500", "dark": "success-400", "description": "Secondary success foreground.", "descriptionAr": "مقدمة حالة النجاح الثانوية." }
+]

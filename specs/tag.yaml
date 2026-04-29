@@ -1,0 +1,59 @@
+name: Tag
+category: data-display
+status: stable
+description: Labels for categorization, filtering, and status display.
+descriptionAr: تسميات للتصنيف والتصفية وعرض الحالة.
+
+variants:
+  type:
+    values: [solid, subtle]
+    default: solid
+    description: Visual style of the tag.
+  status:
+    values: [default, gray, error, warning, success, info]
+    default: default
+    description: Semantic color status.
+  size:
+    values:
+      sm: { height: 22 }
+      md: { height: 26 }
+      lg: { height: 32 }
+    default: md
+
+props:
+  label:
+    type: string
+    required: true
+    description: Tag label text.
+    flutter_name: label
+    react_name: children
+  leadingIcon:
+    type: icon
+    required: false
+    description: Icon displayed before the label.
+  trailingIcon:
+    type: icon
+    required: false
+    description: Icon displayed after the label.
+  removable:
+    type: boolean
+    default: false
+    description: Show dismiss/close button.
+  showDot:
+    type: boolean
+    default: false
+    description: Show leading dot indicator.
+  disabled:
+    type: boolean
+    default: false
+    description: Disable interactions.
+
+tokens:
+  background: bg-{status}-primary
+  text: text-{status}-primary
+  border-radius: full
+
+naming:
+  flutter_class: SingularTag
+  react_export: Tag
+  figma_name: Tag

@@ -1,0 +1,60 @@
+name: Chip
+category: data-display
+status: stable
+description: Compact interactive elements for filtering, selection, or input.
+descriptionAr: عناصر تفاعلية مدمجة للتصفية أو الاختيار أو الإدخال.
+
+variants:
+  size:
+    values:
+      sm: { height: 28 }
+      md: { height: 32 }
+      lg: { height: 40 }
+    default: md
+
+props:
+  label:
+    type: string
+    required: true
+    flutter_name: label
+    react_name: children
+  leadingIcon:
+    type: icon
+    required: false
+    description: Icon before the label.
+  avatar:
+    type: widget
+    required: false
+    description: Avatar displayed before the label (mutually exclusive with leadingIcon).
+  selected:
+    type: boolean
+    default: false
+    description: Selection state for filter/choice chips.
+  dismissible:
+    type: boolean
+    default: false
+    description: Show close/dismiss button.
+  disabled:
+    type: boolean
+    default: false
+  onSelect:
+    type: callback
+    required: false
+    description: Called when chip is selected/deselected.
+  onDismiss:
+    type: callback
+    required: false
+    description: Called when dismiss button is pressed.
+    react_name: onClose
+
+tokens:
+  background_default: bg-secondary
+  background_selected: bg-brand-primary
+  text: text-primary
+  border: border-secondary
+  border-radius: full
+
+naming:
+  flutter_class: SingularChip
+  react_export: Chip
+  figma_name: Chip

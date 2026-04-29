@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+@import 'flag-icons/css/flag-icons.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Font */
+@font-face {
+  font-family: 'Cal Sans';
+  src: url('/fonts/CalSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    /* Light mode variables */
+    --color-bg-primary: theme('colors.white');
+    --color-bg-secondary: theme('colors.neutral.50');
+    --color-bg-surface: theme('colors.white');
+    --color-bg-surface-elevated: theme('colors.white');
+    --color-text-primary: theme('colors.neutral.900');
+    --color-text-secondary: theme('colors.neutral.600');
+    --color-text-muted: theme('colors.neutral.400');
+    --color-border: theme('colors.neutral.200');
+    --color-border-light: theme('colors.neutral.100');
+    
+    /* Brand colors (default to WalaPlus) */
+    --color-brand-primary: theme('colors.walaplus.500');
+    --color-brand-primary-light: theme('colors.walaplus.100');
+    --color-brand-primary-dark: theme('colors.walaplus.700');
+    --color-brand-secondary: theme('colors.walaplus-secondary.500');
+  }
+
+  .dark {
+    --color-bg-primary: theme('colors.neutral.950');
+    --color-bg-secondary: theme('colors.neutral.900');
+    --color-bg-surface: theme('colors.neutral.800');
+    --color-bg-surface-elevated: theme('colors.neutral.800');
+    --color-text-primary: theme('colors.neutral.50');
+    --color-text-secondary: theme('colors.neutral.300');
+    --color-text-muted: theme('colors.neutral.500');
+    --color-border: theme('colors.neutral.700');
+    --color-border-light: theme('colors.neutral.800');
+  }
+
+  /* Brand themes */
+  [data-brand="walaplus"] {
+    --color-brand-primary: theme('colors.walaplus.500');
+    --color-brand-primary-light: theme('colors.walaplus.100');
+    --color-brand-primary-dark: theme('colors.walaplus.700');
+    --color-brand-secondary: theme('colors.walaplus-secondary.500');
+  }
+
+  [data-brand="walaone"] {
+    --color-brand-primary: theme('colors.walaone.500');
+    --color-brand-primary-light: theme('colors.walaone.100');
+    --color-brand-primary-dark: theme('colors.walaone.700');
+    --color-brand-secondary: theme('colors.walaone-secondary.500');
+  }
+
+  [data-brand="doam"] {
+    --color-brand-primary: theme('colors.doam.500');
+    --color-brand-primary-light: theme('colors.doam.100');
+    --color-brand-primary-dark: theme('colors.doam.700');
+    --color-brand-secondary: theme('colors.walaplus-secondary.500');
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50;
+    @apply antialiased;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'cv01' on, 'cv03' on;
+  }
+
+  /* RTL Support */
+  [dir="rtl"] {
+    font-family: 'IBM Plex Sans Arabic', 'Tajawal', system-ui, sans-serif;
+  }
+
+  [dir="rtl"] .font-display {
+    font-family: 'IBM Plex Sans Arabic', 'Tajawal', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, var(--color-brand-primary) 0%, var(--color-brand-secondary) 100%);
+  }
+
+  /* Glass morphism */
+  .glass {
+    @apply backdrop-blur-xl bg-white/70 dark:bg-neutral-900/70;
+    @apply border border-white/20 dark:border-neutral-700/50;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-white dark:bg-neutral-800;
+    @apply border border-neutral-200 dark:border-neutral-700;
+    @apply rounded-2xl;
+    @apply transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply hover:shadow-xl hover:shadow-neutral-200/50 dark:hover:shadow-neutral-900/50;
+    @apply hover:-translate-y-1;
+    @apply hover:border-neutral-300 dark:hover:border-neutral-600;
+  }
+
+  /* Button base */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2;
+    @apply font-medium rounded-xl;
+    @apply transition-all duration-200;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn px-6 py-3;
+    background-color: var(--color-brand-primary);
+    @apply text-white;
+    @apply hover:opacity-90;
+    @apply focus:ring-offset-white dark:focus:ring-offset-neutral-900;
+    box-shadow: 0 4px 14px 0 color-mix(in srgb, var(--color-brand-primary) 40%, transparent);
+  }
+
+  .btn-secondary {
+    @apply btn px-6 py-3;
+    @apply bg-neutral-100 dark:bg-neutral-800;
+    @apply text-neutral-900 dark:text-white;
+    @apply hover:bg-neutral-200 dark:hover:bg-neutral-700;
+  }
+
+  .btn-ghost {
+    @apply btn px-4 py-2;
+    @apply text-neutral-600 dark:text-neutral-400;
+    @apply hover:bg-neutral-100 dark:hover:bg-neutral-800;
+    @apply hover:text-neutral-900 dark:hover:text-white;
+  }
+
+  /* Sidebar link */
+  .sidebar-link {
+    @apply flex items-center gap-3 px-4 py-2.5 rounded-xl;
+    @apply text-neutral-600 dark:text-neutral-400;
+    @apply hover:bg-neutral-100 dark:hover:bg-neutral-800;
+    @apply hover:text-neutral-900 dark:hover:text-white;
+    @apply transition-all duration-200;
+  }
+
+  .sidebar-link-active {
+    @apply bg-neutral-100 dark:bg-neutral-800;
+    @apply text-neutral-900 dark:text-white;
+    @apply font-medium;
+  }
+
+  /* Code block */
+  .code-block {
+    @apply bg-neutral-900 dark:bg-neutral-950;
+    @apply rounded-xl overflow-hidden;
+    @apply border border-neutral-800;
+  }
+
+  .code-block pre {
+    @apply p-4 overflow-x-auto;
+    @apply text-sm font-mono;
+  }
+
+  /* Color swatch */
+  .color-swatch {
+    @apply relative rounded-xl overflow-hidden;
+    @apply transition-all duration-300;
+    @apply hover:scale-105 hover:shadow-lg;
+  }
+
+  .color-swatch::after {
+    content: '';
+    @apply absolute inset-0;
+    @apply bg-gradient-to-t from-black/20 to-transparent;
+    @apply opacity-0 transition-opacity duration-300;
+  }
+
+  .color-swatch:hover::after {
+    @apply opacity-100;
+  }
+
+  /* Glow effect */
+  .glow {
+    position: relative;
+  }
+
+  .glow::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(135deg, var(--color-brand-primary), var(--color-brand-secondary));
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: -1;
+    filter: blur(20px);
+  }
+
+  .glow:hover::before {
+    opacity: 0.5;
+  }
+
+  /* Animated gradient background */
+  .animated-gradient {
+    background: linear-gradient(-45deg, 
+      var(--color-brand-primary), 
+      var(--color-brand-secondary),
+      var(--color-brand-primary-light),
+      var(--color-brand-primary)
+    );
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+  }
+
+  /* Shine effect */
+  .shine {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .shine::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    );
+    animation: shimmer 2s infinite;
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Custom scrollbar */
+  .scrollbar-custom {
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.neutral.300') transparent;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: theme('colors.neutral.300');
+    border-radius: 3px;
+  }
+
+  .dark .scrollbar-custom {
+    scrollbar-color: theme('colors.neutral.700') transparent;
+  }
+
+  .dark .scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: theme('colors.neutral.700');
+  }
+
+  /* Text balance */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Animation delays */
+  .delay-100 { animation-delay: 100ms; }
+  .delay-200 { animation-delay: 200ms; }
+  .delay-300 { animation-delay: 300ms; }
+  .delay-400 { animation-delay: 400ms; }
+  .delay-500 { animation-delay: 500ms; }
+}
+
+/* Selection color */
+::selection {
+  background-color: color-mix(in srgb, var(--color-brand-primary) 30%, transparent);
+}
+
+/* Focus visible */
+:focus-visible {
+  outline: 2px solid var(--color-brand-primary);
+  outline-offset: 2px;
+}
+

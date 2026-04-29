@@ -1,0 +1,49 @@
+name: Avatar
+category: data-display
+status: stable
+description: Visual representation of a user or entity.
+descriptionAr: تمثيل مرئي لمستخدم أو كيان.
+
+variants:
+  shape:
+    values: [circle, square]
+    default: circle
+  size:
+    values:
+      xs: { dimension: 24 }
+      sm: { dimension: 32 }
+      md: { dimension: 40 }
+      lg: { dimension: 48 }
+      xl: { dimension: 56 }
+      2xl: { dimension: 64 }
+    default: md
+
+props:
+  src:
+    type: string
+    required: false
+    description: Image source URL.
+  alt:
+    type: string
+    required: false
+    description: Alt text for accessibility.
+  initials:
+    type: string
+    required: false
+    description: Fallback text when no image.
+    flutter_name: initial
+  online:
+    type: boolean
+    required: false
+    description: Show online status indicator.
+
+tokens:
+  background: bg-tertiary
+  text: text-primary
+  border: border-secondary
+  online_indicator: status-success
+
+naming:
+  flutter_class: SingularAvatar
+  react_export: Avatar
+  figma_name: Avatar

@@ -1,0 +1,1727 @@
+{
+  "meta": {
+    "title": "Singular Design System",
+    "description": "A multi-brand, scalable Design System for WalaPlus, WalaOne, and Doam products"
+  },
+  "nav": {
+    "home": "Home",
+    "getStarted": "Get Started",
+    "foundations": "Foundations",
+    "components": "Components",
+    "patterns": "Patterns",
+    "resources": "Resources",
+    "search": "Search documentation...",
+    "toggleTheme": "Toggle theme",
+    "toggleLanguage": "Toggle language"
+  },
+  "hero": {
+    "badge": "Design System v1.0",
+    "title": "Design with clarity",
+    "titleHighlight": "Build with confidence",
+    "description": "Ship beautiful, consistent interfaces across WalaPlus, WalaOne, and Doam using our scalable design tokens, flexible components, and powerful Flutter toolkit.",
+    "cta": {
+      "getStarted": "Get Started",
+      "viewGithub": "View on GitHub",
+      "exploreDocs": "Explore Documentation"
+    }
+  },
+  "brands": {
+    "title": "One System, Three Brands",
+    "description": "Singular powers consistent experiences across our entire product ecosystem",
+    "walaplus": {
+      "name": "WalaPlus",
+      "description": "Financial services platform"
+    },
+    "walaone": {
+      "name": "WalaOne",
+      "description": "Enterprise solutions"
+    },
+    "doam": {
+      "name": "Doam",
+      "description": "Digital lifestyle app"
+    }
+  },
+  "features": {
+    "title": "Built for Scale",
+    "subtitle": "Everything you need to build world-class products",
+    "tokens": {
+      "title": "Design Tokens",
+      "description": "Single source of truth for colors, typography, spacing, and more. Semantic tokens that adapt to any brand or theme."
+    },
+    "themes": {
+      "title": "Multi-Brand Themes",
+      "description": "Seamlessly switch between WalaPlus, WalaOne, and Doam with automatic token mapping."
+    },
+    "modes": {
+      "title": "Light & Dark Modes",
+      "description": "Full support for light and dark themes across all brands with smooth transitions."
+    },
+    "rtl": {
+      "title": "RTL Support",
+      "description": "Native support for Arabic and other RTL languages with automatic layout mirroring."
+    },
+    "flutter": {
+      "title": "Flutter First",
+      "description": "Built with Flutter's ThemeExtension pattern for maximum flexibility and type safety."
+    },
+    "docs": {
+      "title": "Living Documentation",
+      "description": "Interactive Widgetbook documentation with real-time previews and code examples."
+    }
+  },
+  "foundations": {
+    "title": "Foundations",
+    "subtitle": "The building blocks of Singular",
+    "colors": {
+      "title": "Colors",
+      "description": "12-step color scales with semantic tokens for consistent visual language"
+    },
+    "typography": {
+      "title": "Typography",
+      "description": "Material 3 inspired type scale with automatic font switching for Arabic"
+    },
+    "spacing": {
+      "title": "Spacing",
+      "description": "4px base unit system for consistent rhythm and visual harmony"
+    },
+    "radius": {
+      "title": "Border Radius",
+      "description": "Flexible radius tokens from sharp corners to full circles"
+    },
+    "elevation": {
+      "title": "Elevation",
+      "description": "5 levels of shadow depth for visual hierarchy"
+    },
+    "icons": {
+      "title": "Icons",
+      "description": "Comprehensive icon library designed for clarity at any size"
+    },
+    "iconography": {
+      "title": "Iconography",
+      "description": "14 icon sizes from 12px to 150px with the Icon Resizer component"
+    }
+  },
+  "getStarted": {
+    "title": "Get Started",
+    "subtitle": "Join thousands of developers building with Singular",
+    "forDesigners": {
+      "title": "For Designers",
+      "description": "Access Figma libraries, design guidelines, and brand assets"
+    },
+    "forDevelopers": {
+      "title": "For Developers",
+      "description": "Installation guides, API reference, and code examples"
+    },
+    "installation": {
+      "title": "Installation",
+      "step1": "1. Add the package",
+      "step2": "2. Import the library",
+      "step3": "3. Configure your app"
+    },
+    "quickLinks": {
+      "colors": "Colors",
+      "colorsDesc": "Explore our color system with 12-step scales",
+      "typography": "Typography",
+      "typographyDesc": "Material 3 inspired type scale",
+      "components": "Components",
+      "componentsDesc": "Ready-to-use Flutter widgets",
+      "figma": "Figma Library",
+      "figmaDesc": "Design assets and templates"
+    },
+    "usage": {
+      "title": "Basic Usage",
+      "description": "Access design tokens through context extensions"
+    },
+    "nextSteps": {
+      "title": "Next Steps",
+      "explore": "Explore the design system",
+      "exploreDesc": "Learn about all available tokens and components",
+      "customize": "Customize your theme",
+      "customizeDesc": "Create brand-specific theme variations"
+    }
+  },
+  "codeExample": {
+    "title": "Simple to Use",
+    "description": "Access design tokens directly from BuildContext with type-safe extensions",
+    "features": {
+      "typeSafe": "Type-safe context extensions",
+      "autoTheme": "Automatic theme adaptation",
+      "semantic": "Semantic token naming",
+      "intellisense": "Full IntelliSense support"
+    }
+  },
+  "foundationsPreview": {
+    "learnMore": "Learn more",
+    "typographyPreview": {
+      "heading": "Heading",
+      "body": "Body text"
+    }
+  },
+  "quickNav": {
+    "title": "Explore the System",
+    "subtitle": "Everything you need to build beautiful, consistent interfaces",
+    "getStarted": {
+      "title": "Get Started",
+      "description": "Quick setup guide and installation instructions to get up and running"
+    },
+    "foundations": {
+      "title": "Foundations",
+      "description": "Colors, typography, spacing, and other design tokens"
+    },
+    "components": {
+      "title": "Components",
+      "description": "Ready-to-use UI components built with design tokens"
+    },
+    "patterns": {
+      "title": "Patterns",
+      "description": "Common UI patterns and best practices for consistent experiences"
+    },
+    "learnMore": "Learn more",
+    "comingSoon": "Coming Soon"
+  },
+  "footer": {
+    "tagline": "Crafted with care for WalaPlus, WalaOne, and Doam",
+    "copyright": "© 2026 Singular Design System. All rights reserved.",
+    "madeWith": "Made with",
+    "forCommunity": "for the community",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "releases": "Releases",
+    "blog": "Blog",
+    "discord": "Discord",
+    "twitter": "Twitter",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "license": "License",
+    "links": {
+      "documentation": "Documentation",
+      "github": "GitHub",
+      "figma": "Figma",
+      "changelog": "Changelog"
+    }
+  },
+  "brandsShowcase": {
+    "primaryButton": "Primary Button",
+    "secondaryButton": "Secondary Button",
+    "outlined": "Outlined"
+  },
+  "components": {
+    "title": "Components",
+    "description": "beautifully designed, production-ready components to build your applications",
+    "categories": {
+      "callToActions": {
+        "name": "Call to Actions",
+        "description": "Interactive elements that prompt users to take action"
+      },
+      "navigation": {
+        "name": "Navigation",
+        "description": "Components that help users move through the application"
+      },
+      "dataEntry": {
+        "name": "Data Entry",
+        "description": "Form controls for collecting user input"
+      },
+      "dataDisplay": {
+        "name": "Data Display",
+        "description": "Components for presenting information to users"
+      },
+      "feedback": {
+        "name": "Feedback",
+        "description": "Components that communicate status and provide feedback"
+      }
+    },
+    "docTabs": {
+      "preview": "Preview",
+      "code": "Code",
+      "api": "API",
+      "guidelines": "Guidelines"
+    },
+    "playground": {
+      "options": "Options",
+      "reset": "Reset",
+      "viewCode": "View Code",
+      "copy": "Copy",
+      "copied": "Copied"
+    },
+    "props": {
+      "title": "Props",
+      "name": "Name",
+      "type": "Type",
+      "default": "Default",
+      "description": "Description",
+      "required": "Required"
+    },
+    "responsive": {
+      "title": "Responsive Preview",
+      "mobile": "Mobile",
+      "tablet": "Tablet",
+      "desktop": "Desktop"
+    },
+    "guidelines": {
+      "title": "Usage Guidelines",
+      "do": "Do",
+      "dont": "Don't"
+    },
+    "status": {
+      "stable": "Stable",
+      "beta": "Beta",
+      "experimental": "Experimental",
+      "deprecated": "Deprecated",
+      "coming-soon": "Coming Soon"
+    }
+  },
+  "colorPage": {
+    "title": "Colors",
+    "description": "Singular's color system is built on semantic tokens that adapt to brand and theme context. Every color has a purpose.",
+    "primitives": "Primitives",
+    "primitivesDesc": "Brand, neutral, and status color scales in 12-step ranges from 25 to 950",
+    "semantic": "Semantic Tokens",
+    "semanticDesc": "Contextual colors that adapt to theme and brand",
+    "brands": "Brand Colors",
+    "brandsDesc": "Primary and secondary colors for each brand",
+    "copyHex": "Copy HEX",
+    "copied": "Copied!",
+    "selectBrand": "Select brand to view colors",
+    "colorVariables": "Color variables",
+    "variablesBadge": "Variables",
+    "colorVariablesDesc": "Color variables (Figma's version of design tokens) store reusable values that can be applied to all kinds of design properties including fill and stroke colors. They help save time and effort when managing design systems by acting as a \"single source of truth\" while allowing designers to create multiple color modes.",
+    "variableColumns": {
+      "name": "Name",
+      "lightMode": "Light mode",
+      "darkMode": "Dark mode",
+      "usage": "Usage"
+    }
+  },
+  "typographyPage": {
+    "title": "Typography",
+    "description": "A comprehensive type system using Inter font for both English and Arabic with optimized sizing for each language.",
+    "fontFamilies": "Font Families",
+    "headingsScale": "Headings Scale",
+    "textScale": "Text Scale",
+    "textScaleNote": "Text sizes may differ between English and Arabic for optimal readability",
+    "arabicSizeNote": "Arabic Text/XL uses 24px instead of 20px for better readability in RTL layouts.",
+    "fontWeights": "Font Weights",
+    "flutterUsage": "Usage in Flutter",
+    "token": "Token",
+    "preview": "Preview",
+    "size": "Size",
+    "sizes": "sizes",
+    "usage": "Usage",
+    "weight": "Weight",
+    "copyToken": "Copy token",
+    "english": "English",
+    "arabic": "Arabic"
+  },
+  "elevationPage": {
+    "title": "Shadows & Blurs",
+    "description": "Elevation tokens create visual hierarchy through shadows and blur effects.",
+    "elevationLevels": "Elevation Levels",
+    "blurEffects": "Blur Effects",
+    "level": "Level",
+    "shadow": "Shadow",
+    "blur": "Blur",
+    "level0": {
+      "title": "Level 0 - None",
+      "description": "Flat elements, no elevation",
+      "usage": "Backgrounds, inline elements"
+    },
+    "level1": {
+      "title": "Level 1 - Subtle",
+      "description": "Slight lift from surface",
+      "usage": "Cards, hover states"
+    },
+    "level2": {
+      "title": "Level 2 - Medium",
+      "description": "Noticeable elevation",
+      "usage": "Dropdowns, popovers"
+    },
+    "level3": {
+      "title": "Level 3 - High",
+      "description": "Prominent elevation",
+      "usage": "Modals, dialogs"
+    },
+    "level4": {
+      "title": "Level 4 - Highest",
+      "description": "Maximum elevation",
+      "usage": "Toasts, notifications"
+    },
+    "subtleBlur": {
+      "name": "Subtle Blur",
+      "usage": "Slight background blur"
+    },
+    "mediumBlur": {
+      "name": "Medium Blur",
+      "usage": "Glass morphism effects"
+    },
+    "heavyBlur": {
+      "name": "Heavy Blur",
+      "usage": "Strong frosted glass"
+    },
+    "extraBlur": {
+      "name": "Extra Blur",
+      "usage": "Maximum blur effect"
+    }
+  },
+  "spacingPage": {
+    "title": "Spacing & Sizing",
+    "description": "A consistent spacing system based on a 4px base unit for rhythm and visual harmony.",
+    "baseUnit": "Base Unit",
+    "scale": "Spacing Scale",
+    "baseUnitDesc": "All spacing values are multiples of 4px",
+    "visualGuide": "Visual Guide",
+    "token": "Token",
+    "value": "Value",
+    "pixels": "Pixels",
+    "commonUsage": "Common Usage",
+    "usages": {
+      "xxs": "Tight inline spacing",
+      "xs": "Icon padding, tight gaps",
+      "sm": "Button padding, small gaps",
+      "md": "Card padding, standard gaps",
+      "lg": "Section spacing",
+      "xl": "Large section spacing",
+      "xxl": "Page margins",
+      "xxxl": "Hero section spacing"
+    }
+  },
+  "radiusPage": {
+    "title": "Border Radius",
+    "description": "Flexible radius tokens from sharp corners to full circles for consistent component styling.",
+    "scale": "Radius Scale",
+    "preview": "Preview",
+    "token": "Token",
+    "value": "Value",
+    "usage": "Usage",
+    "usages": {
+      "none": "Sharp corners, no rounding",
+      "xs": "Subtle rounding, badges",
+      "sm": "Buttons, inputs",
+      "md": "Cards, containers",
+      "lg": "Modals, large cards",
+      "xl": "Hero cards, banners",
+      "full": "Pills, avatars, circles"
+    }
+  },
+  "gridPage": {
+    "title": "Grid & Layouts",
+    "description": "Responsive grid system for consistent layouts across all screen sizes.",
+    "responsiveGrid": "Responsive Grid",
+    "breakpoints": "Breakpoints",
+    "columns": "Columns",
+    "gutter": "Gutter",
+    "margin": "Margin",
+    "mobile": "Mobile",
+    "tablet": "Tablet",
+    "desktop": "Desktop",
+    "largeDesktop": "Large Desktop",
+    "containerSizes": "Container Sizes",
+    "maxWidth": "Max Width",
+    "example": "Example Layout"
+  },
+  "overlaysPage": {
+    "title": "Overlays",
+    "description": "Overlay tokens for modals, drawers, and backdrop effects.",
+    "backdropColors": "Backdrop Colors",
+    "overlayStyles": "Overlay Styles",
+    "light": "Light",
+    "medium": "Medium",
+    "heavy": "Heavy",
+    "lightDesc": "Subtle backdrop for light interactions",
+    "mediumDesc": "Standard backdrop for modals",
+    "heavyDesc": "Strong backdrop for focus states",
+    "glassMorphism": "Glass Morphism",
+    "glassMorphismDesc": "Frosted glass effect for modern UI"
+  },
+  "systemUIPage": {
+    "title": "System UI",
+    "description": "Guidelines for integrating with native system UI elements.",
+    "statusBar": "Status Bar",
+    "navigationBar": "Navigation Bar",
+    "safeAreas": "Safe Areas",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "statusBarDesc": "Adapt status bar style to match app theme",
+    "navBarDesc": "Navigation bar integration guidelines",
+    "safeAreasDesc": "Respect device safe areas for notches and home indicators"
+  },
+  "foundationsPage": {
+    "title": "Foundations",
+    "description": "The core building blocks of the Singular Design System. These foundational elements ensure consistency across all products.",
+    "exploreBelow": "Explore the foundations below"
+  },
+  "sidebar": {
+    "overview": "Overview",
+    "gettingStarted": "Getting Started",
+    "installation": "Installation",
+    "usage": "Usage",
+    "foundations": "Foundations",
+    "colors": "Colors",
+    "typography": "Typography",
+    "spacing": "Spacing",
+    "radius": "Border Radius",
+    "elevation": "Elevation",
+    "iconography": "Iconography",
+    "components": "Components",
+    "buttons": "Buttons",
+    "inputs": "Inputs",
+    "cards": "Cards",
+    "patterns": "Patterns",
+    "themes": "Themes",
+    "brandThemes": "Brand Themes",
+    "darkMode": "Dark Mode"
+  },
+  "iconographyPage": {
+    "title": "Iconography",
+    "description": "A comprehensive icon library with 6 style variants and 14 predefined sizes for consistent icon usage across all products.",
+    "copyToken": "Copy token",
+    "iconResizerTitle": "Icon Resizer Component",
+    "iconResizerDesc": "This is an internal Figma component used to enable changing icon size when nested inside another component. Use these size tokens to maintain consistency across your designs.",
+    "sizingScale": "Icon Sizing Scale",
+    "sizingScaleDesc": "14 predefined sizes from micro icons to full-page heroes, designed for every use case.",
+    "tokenReference": "Token Reference",
+    "sizes": "sizes",
+    "totalIcons": "icons",
+    "categories": "categories",
+    "variants": "variants",
+    "iconLibrary": "Icon Library",
+    "searchPlaceholder": "Search icons by name or keyword...",
+    "allCategories": "All",
+    "noIconsFound": "No icons found matching your search.",
+    "variant": "Variant",
+    "size": "Size",
+    "keywords": "Keywords",
+    "variantStyles": "Variant Styles",
+    "flagsTitle": "Flags",
+    "countriesAndRegions": "countries & regions",
+    "searchFlagsPlaceholder": "Search flags by country name or code...",
+    "noFlagsFound": "No flags found matching your search.",
+    "flagSizes": "Flag Sizes",
+    "socialMediaTitle": "Social Media",
+    "platforms": "platforms",
+    "searchSocialPlaceholder": "Search social media platforms...",
+    "noSocialIconsFound": "No social icons found matching your search.",
+    "socialStyle": "Style",
+    "colored": "Colored",
+    "monochrome": "Monochrome",
+    "socialSizes": "Sizes",
+    "brandColor": "Brand Color",
+    "showing": "Showing",
+    "of": "of",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "table": {
+      "name": "Name",
+      "size": "Size",
+      "token": "Token",
+      "usage": "Usage"
+    },
+    "usages": {
+      "microIcons": "Micro icons, tight spaces",
+      "inlineText": "Inline text icons",
+      "smallUI": "Small UI elements",
+      "defaultSize": "Default icon size",
+      "standardButtons": "Standard buttons",
+      "mediumEmphasis": "Medium emphasis",
+      "largeButtons": "Large buttons, cards",
+      "featureIcons": "Feature icons",
+      "sectionHeaders": "Section headers",
+      "heroSections": "Hero sections",
+      "marketing": "Marketing, large UI",
+      "splashScreens": "Splash screens",
+      "fullPageHeroes": "Full-page heroes",
+      "maximumSize": "Maximum size"
+    },
+    "usageGuidelines": "Usage Guidelines",
+    "guidelines": {
+      "do": "Do",
+      "do1": "Use predefined size tokens for consistency",
+      "do2": "Match icon size to surrounding text and UI elements",
+      "do3": "Use smaller sizes (12-20px) for inline icons",
+      "do4": "Use larger sizes (64px+) for hero sections and marketing",
+      "dont": "Don't",
+      "dont1": "Use arbitrary pixel values outside the scale",
+      "dont2": "Mix different icon sizes in the same context",
+      "dont3": "Scale icons disproportionately",
+      "dont4": "Use hero sizes for functional UI elements"
+    },
+    "flutterUsage": "Usage in Flutter"
+  },
+  "buttonsPage": {
+    "title": "Buttons",
+    "description": "Buttons allow users to trigger actions with a single tap.",
+    "buttonText": "Button Text",
+    "withIcon": "With Icon",
+    "continue": "Continue",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "xLarge": "X-Large",
+    "variants": {
+      "title": "Button Variants",
+      "description": "Four distinct button variants to establish visual hierarchy in your interface.",
+      "primary": {
+        "title": "Primary",
+        "description": "High emphasis for the main call to action. Use sparingly."
+      },
+      "secondary": {
+        "title": "Secondary",
+        "description": "Medium emphasis for secondary actions. Light brand-tinted background with brand-colored text."
+      },
+      "tertiary": {
+        "title": "Tertiary",
+        "description": "Low emphasis for less prominent actions. Subtle hover state."
+      },
+      "outline": {
+        "title": "Outline",
+        "description": "Medium emphasis with border. Good for secondary actions that need more visibility."
+      }
+    },
+    "danger": {
+      "title": "Danger / Destructive",
+      "description": "Use danger variants for destructive actions like delete, remove, or cancel.",
+      "delete": "Delete",
+      "remove": "Remove",
+      "cancel": "Cancel",
+      "discard": "Discard"
+    },
+    "states": {
+      "title": "Button States",
+      "description": "Buttons support Default, Hover, Focused, Disabled, and Loading states. Interactive states are applied automatically. Disabled buttons use a consistent gray style regardless of variant.",
+      "default": "Default",
+      "hover": "Hover",
+      "focused": "Focused",
+      "disabled": "Disabled",
+      "loading": "Loading",
+      "hoverHint": "Hover the default →",
+      "focusHint": "Tab to see",
+      "interactive": "interactive",
+      "variant": "Variant",
+      "button": "Button",
+      "defaultDesc": "The resting state of the button. Uses the base color tokens for each variant.",
+      "hoverDesc": "Triggered on mouse hover. Primary darkens, Secondary intensifies, Tertiary/Outline gain background.",
+      "focusedDesc": "Shows a focus ring when tabbed to (keyboard navigation). Uses brand color for the ring.",
+      "disabledDesc": "All variants use the same disabled style: gray-100 background, gray-500 text, cursor not-allowed.",
+      "loadingDesc": "Shows a spinner and disables interaction. Preserves the button's variant colors."
+    },
+    "icons": {
+      "title": "Buttons with Icons",
+      "description": "Icons can be placed before or after the button text to provide additional context.",
+      "addItem": "Add Item",
+      "nextStep": "Next Step",
+      "confirmContinue": "Confirm & Continue",
+      "sendEmail": "Send Email",
+      "download": "Download",
+      "viewAll": "View All"
+    },
+    "fullWidth": {
+      "title": "Full Width Buttons",
+      "description": "Use full width buttons for mobile layouts or when the button should span the container.",
+      "back": "Back"
+    },
+    "responsive": {
+      "primaryAction": "Primary Action",
+      "secondaryAction": "Secondary Action",
+      "tertiaryAction": "Tertiary Action",
+      "downloadApp": "Download App",
+      "learnMore": "Learn More",
+      "skip": "Skip",
+      "settings": "Settings"
+    }
+  },
+  "iconButtonsPage": {
+    "title": "Icon Buttons",
+    "description": "Compact buttons that use icons for space-efficient actions.",
+    "category": "Call to Actions",
+    "like": "Like",
+    "share": "Share",
+    "settings": "Settings",
+    "delete": "Delete",
+    "menu": "Menu",
+    "search": "Search",
+    "add": "Add",
+    "variants": {
+      "title": "Icon Button Variants",
+      "description": "Four variants for different levels of visual emphasis.",
+      "primary": {
+        "title": "Primary",
+        "description": "High emphasis for primary icon actions."
+      },
+      "secondary": {
+        "title": "Secondary",
+        "description": "Medium emphasis with subtle background."
+      },
+      "tertiary": {
+        "title": "Tertiary",
+        "description": "Minimal style for toolbars and dense UIs."
+      },
+      "outline": {
+        "title": "Outline",
+        "description": "Bordered style for secondary actions."
+      }
+    },
+    "danger": {
+      "title": "Danger / Destructive",
+      "description": "Use danger variants for destructive actions like delete or remove."
+    },
+    "sizes": {
+      "title": "Sizes",
+      "description": "Four sizes to fit different UI contexts.",
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "xLarge": "X-Large"
+    },
+    "states": {
+      "title": "Button States",
+      "description": "Icon buttons support default, hover, focused, disabled, and loading states.",
+      "variant": "Variant",
+      "default": "Default",
+      "hover": "Hover",
+      "focused": "Focused",
+      "disabled": "Disabled",
+      "loading": "Loading",
+      "interactive": "interactive",
+      "focusHint": "tab to see",
+      "hoverHint": "Hover to see",
+      "defaultDesc": "The resting state of the icon button before any user interaction.",
+      "hoverDesc": "Visual feedback when the cursor is over the icon button.",
+      "focusedDesc": "Keyboard focus indicator with a visible ring around the icon button.",
+      "disabledDesc": "Non-interactive state with reduced opacity and no pointer events.",
+      "loadingDesc": "Shows a spinner while an async operation is in progress."
+    },
+    "examples": {
+      "title": "Common Examples",
+      "toolbar": "Toolbar Actions",
+      "social": "Social Actions",
+      "navigation": "Navigation"
+    },
+    "responsive": {
+      "mobileNav": "Mobile Navigation",
+      "tabletActions": "Tablet Actions",
+      "desktopToolbar": "Desktop Toolbar"
+    }
+  },
+  "buttonGroupPage": {
+    "title": "Button Group",
+    "description": "Group related buttons together for cohesive action sets.",
+    "category": "Call to Actions",
+    "left": "Left",
+    "center": "Center",
+    "right": "Right",
+    "examples": {
+      "title": "Common Examples",
+      "description": "Button groups are commonly used for toolbars, segmented controls, and action sets.",
+      "textFormatting": "Text Formatting",
+      "alignment": "Alignment",
+      "viewOptions": "View Options"
+    },
+    "orientation": {
+      "title": "Orientation",
+      "description": "Button groups support horizontal and vertical layouts.",
+      "horizontal": "Horizontal",
+      "horizontalDesc": "Default layout for inline actions and toolbars.",
+      "vertical": "Vertical",
+      "verticalDesc": "Stacked layout for mobile or sidebar navigation."
+    },
+    "attached": {
+      "title": "Attached",
+      "description": "Remove gaps between buttons and join them together for segmented controls like date pickers or view toggles."
+    },
+    "sizes": {
+      "title": "Sizes",
+      "description": "Use the size prop to apply consistent sizing to all buttons in the group.",
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large",
+      "xLarge": "X-Large"
+    },
+    "gap": {
+      "title": "Gap Control",
+      "description": "Control the spacing between buttons when not attached.",
+      "none": "None",
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large"
+    },
+    "variants": {
+      "title": "Button Variants in Groups",
+      "description": "Button groups support all button variants for different visual hierarchies.",
+      "primary": {
+        "title": "Primary",
+        "description": "High emphasis groups for primary actions."
+      },
+      "secondary": {
+        "title": "Secondary",
+        "description": "Medium emphasis with subtle backgrounds."
+      },
+      "tertiary": {
+        "title": "Tertiary",
+        "description": "Low emphasis for less prominent actions."
+      },
+      "outline": {
+        "title": "Outline",
+        "description": "Bordered style for neutral actions."
+      },
+      "mixed": "Mixed variants for clear hierarchy",
+      "withIcons": "With icon buttons",
+      "dangerActions": "Danger actions",
+      "confirmDialog": "Confirm dialog actions",
+      "download": "Download",
+      "share": "Share",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "confirm": "Confirm"
+    },
+    "danger": {
+      "title": "Danger / Destructive Groups",
+      "description": "Button groups containing danger buttons for destructive actions like delete or remove.",
+      "delete": "Delete",
+      "remove": "Remove",
+      "cancel": "Cancel",
+      "discard": "Discard"
+    },
+    "states": {
+      "title": "Button States in Groups",
+      "description": "Buttons within groups support all standard states including default, hover, focused, disabled, and loading.",
+      "variant": "Variant",
+      "default": "Default",
+      "hover": "Hover",
+      "focused": "Focused",
+      "disabled": "Disabled",
+      "loading": "Loading",
+      "interactive": "interactive",
+      "focusHint": "tab to see",
+      "hoverHint": "Hover to see",
+      "button": "Button",
+      "defaultDesc": "The resting state of buttons in the group before any user interaction.",
+      "hoverDesc": "Visual feedback when the cursor is over a button in the group.",
+      "focusedDesc": "Keyboard focus indicator with a visible ring around the focused button.",
+      "disabledDesc": "Non-interactive state with reduced opacity for buttons in the group.",
+      "loadingDesc": "Shows a spinner while an async operation is in progress."
+    },
+    "withIconButtons": {
+      "title": "With Icon Buttons",
+      "description": "Button groups work seamlessly with IconButton components.",
+      "toolbar": "Toolbar with icon buttons",
+      "actions": "Action icon buttons"
+    },
+    "responsive": {
+      "mobileStack": "Mobile Stack",
+      "tabletSegmented": "Tablet Segmented",
+      "desktopActions": "Desktop Actions",
+      "option": "Option",
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year",
+      "saveDraft": "Save Draft",
+      "preview": "Preview",
+      "publish": "Publish"
+    }
+  },
+  "dockPage": {
+    "title": "Dock",
+    "description": "Buttons in a dock container to be fixed at the screen bottom.",
+    "category": "Call to Actions",
+    "textHere": "Text Here",
+    "buttonText": "Text Here",
+    "variants": {
+      "title": "Dock Variants",
+      "description": "Different dock configurations matching Figma design variants.",
+      "oneButton": "One Button",
+      "twoButtons": "Two Buttons",
+      "withContainer": "With Container",
+      "withoutContainer": "Without Container",
+      "vertical": "Vertical",
+      "horizontal": "Horizontal",
+      "separator": "Separator",
+      "withSeparator": "With Separator",
+      "withoutSeparator": "Without Separator"
+    }
+  },
+  "inputFieldPage": {
+    "title": "Input Field",
+    "description": "Text input fields allow users to enter and edit text with various types, states, and addons.",
+    "types": {
+      "title": "Input Types",
+      "description": "Nine different input types to handle various data entry scenarios.",
+      "simple": {
+        "title": "Simple",
+        "description": "Basic text input with optional trailing icon."
+      },
+      "leadingIcon": {
+        "title": "Leading Icon",
+        "description": "Input with a leading icon to clarify the expected content."
+      },
+      "leadingDropdown": {
+        "title": "Leading Dropdown",
+        "description": "Input with a leading dropdown for selection, like currency or unit."
+      },
+      "trailingDropdown": {
+        "title": "Trailing Dropdown",
+        "description": "Input with a trailing dropdown for additional options or categories."
+      },
+      "trailingAction": {
+        "title": "Trailing Action",
+        "description": "Input with a trailing action button, like copy or search."
+      },
+      "phoneNumber": {
+        "title": "Phone Number",
+        "description": "Phone input with country code selector and flag."
+      },
+      "leadingText": {
+        "title": "Leading Text",
+        "description": "Input with leading text prefix, like https:// for URLs."
+      },
+      "tags": {
+        "title": "Tags",
+        "description": "Multi-select input displaying selected items as removable tags."
+      },
+      "textarea": {
+        "title": "Text Area",
+        "description": "Multi-line text input for longer content like descriptions."
+      }
+    },
+    "states": {
+      "title": "Input States",
+      "description": "Input fields support Default, Fill, Focus, and Disabled states.",
+      "state": "State",
+      "large": "Large (48px)",
+      "small": "Small (40px)",
+      "default": "Default",
+      "fill": "Fill",
+      "focused": "Focused",
+      "disabled": "Disabled",
+      "focusHint": "Click input to see focus state"
+    },
+    "danger": {
+      "title": "Danger / Error State",
+      "description": "Use danger state for validation errors with red border and error hint text."
+    },
+    "chip": {
+      "title": "Chip Component",
+      "description": "Chips are used to display selected items in tags/multi-select inputs."
+    }
+  },
+  "listControlPage": {
+    "title": "List Control",
+    "description": "Selection controls for checkboxes, radios, and toggles with optional titles and descriptions.",
+    "types": {
+      "title": "Control Types",
+      "description": "Three control types for different selection scenarios.",
+      "checkbox": {
+        "title": "Checkbox",
+        "description": "Square control for multi-select options. Users can select multiple items."
+      },
+      "radio": {
+        "title": "Radio",
+        "description": "Circular control for single-select options. Only one can be selected in a group."
+      },
+      "toggle": {
+        "title": "Toggle",
+        "description": "Switch control for on/off states. Best for immediate actions."
+      }
+    },
+    "sizes": {
+      "title": "Sizes",
+      "description": "Two size variants available for different use cases.",
+      "sm": "Small (16px)",
+      "md": "Medium (20px)"
+    },
+    "variants": {
+      "title": "Style Variants",
+      "description": "Two visual styles for different contexts.",
+      "fullWidth": {
+        "title": "Full Width",
+        "description": "Inline layout without borders, suitable for lists and forms."
+      },
+      "widget": {
+        "title": "Widget",
+        "description": "Bordered container style, suitable for standalone options or cards."
+      }
+    },
+    "states": {
+      "title": "States",
+      "description": "Controls support Default, Selected, Hover, Focus, and Disabled states.",
+      "state": "State",
+      "default": "Default",
+      "selected": "Selected",
+      "hover": "Hover",
+      "focus": "Focus",
+      "disabled": "Disabled"
+    },
+    "content": {
+      "title": "Content Options",
+      "description": "Controls can display title, description, or both.",
+      "titleOnly": "Title Only",
+      "titleAndDescription": "Title + Description",
+      "withTrailingIcon": "With Trailing Icon"
+    },
+    "accessibility": {
+      "title": "Accessibility",
+      "description": "ListControl includes full keyboard navigation and ARIA attributes for screen readers."
+    },
+    "labels": {
+      "title": "Title",
+      "description": "Description",
+      "checkbox": "Checkbox",
+      "radio": "Radio",
+      "toggle": "Toggle",
+      "enableNotifications": "Enable Notifications",
+      "notificationsDesc": "Receive alerts for important updates",
+      "darkMode": "Dark Mode",
+      "darkModeDesc": "Switch between light and dark themes",
+      "agreeTerms": "Agree to Terms",
+      "agreeTermsDesc": "I accept the terms and conditions",
+      "subscribeNewsletter": "Subscribe to Newsletter",
+      "subscribeDesc": "Get weekly updates and promotions",
+      "rememberMe": "Remember Me",
+      "rememberMeDesc": "Stay logged in on this device",
+      "autoSave": "Auto-save",
+      "autoSaveDesc": "Automatically save changes",
+      "option": "Option",
+      "optionA": "Option A",
+      "optionB": "Option B",
+      "optionC": "Option C"
+    }
+  },
+  "dropdownPage": {
+    "title": "Dropdown",
+    "description": "Dropdown components allow users to select options from a menu. Includes DropdownMenu for standalone menus and InputDropdown for form inputs.",
+    "dropdownMenu": {
+      "title": "Dropdown Menu",
+      "description": "A floating menu list that displays selectable options with hover and selected states.",
+      "withIcons": "With Icons",
+      "withoutIcons": "Without Icons"
+    },
+    "inputDropdown": {
+      "title": "Input Dropdown",
+      "description": "A form input that opens a dropdown menu for single-select scenarios.",
+      "label": "Select Option",
+      "hint": "Helper text appears below the input",
+      "placeholder": "Choose from list"
+    },
+    "states": {
+      "title": "Input States",
+      "description": "InputDropdown supports Enabled, Focused, Open, and Display states.",
+      "state": "State",
+      "enabled": "Enabled",
+      "focused": "Focused",
+      "open": "Open",
+      "display": "Display",
+      "description_enabled": "Default interactive state, ready for user click",
+      "description_focused": "Border changes to brand color, no dropdown visible",
+      "description_open": "Dropdown menu appears below with brand border",
+      "description_display": "Shows selected value in read-only format"
+    },
+    "leading": {
+      "title": "Leading Variants",
+      "description": "InputDropdown supports different leading elements: None, Icon, Image, or Avatar.",
+      "none": "None",
+      "icon": "With Leading Icon",
+      "image": "With Leading Image",
+      "avatar": "With Leading Avatar"
+    },
+    "sizes": {
+      "title": "Sizes",
+      "description": "Standard size with 48px height for consistency with other inputs."
+    },
+    "features": {
+      "title": "Features",
+      "description": "Key features of the dropdown components.",
+      "rtl": "RTL Support",
+      "rtlDesc": "Automatic layout mirroring for Arabic and other RTL languages",
+      "keyboard": "Keyboard Navigation",
+      "keyboardDesc": "Full keyboard support with Enter, Space, Arrow keys, and Escape",
+      "elevation": "Elevation Shadow",
+      "elevationDesc": "Floating menu with proper shadow for visual hierarchy",
+      "states": "Interactive States",
+      "statesDesc": "Hover, focus, and selected states with smooth transitions"
+    },
+    "accessibility": {
+      "title": "Accessibility",
+      "description": "Both components include full ARIA attributes and keyboard navigation."
+    },
+    "labels": {
+      "selectCountry": "Select Country",
+      "selectCity": "Select City",
+      "selectCategory": "Select Category",
+      "chooseOption": "Choose an option",
+      "country": "Country",
+      "city": "City",
+      "category": "Category",
+      "option": "Option"
+    },
+    "countries": {
+      "saudi": "Saudi Arabia",
+      "uae": "United Arab Emirates",
+      "egypt": "Egypt",
+      "jordan": "Jordan",
+      "kuwait": "Kuwait"
+    }
+  },
+  "tabBarPage": {
+    "title": "Tab Bar",
+    "description": "Bottom navigation component for mobile apps. Supports 4-5 tabs, optional iOS home indicator, and floating action button (FAB).",
+    "category": "Navigation",
+    "items": {
+      "home": "Home",
+      "categories": "Categories",
+      "profile": "Profile",
+      "settings": "Settings"
+    },
+    "sections": {
+      "basicUsage": {
+        "title": "Basic Usage",
+        "description": "Tab Bar displays navigation items at the bottom of the screen with icon and label.",
+        "fourItems": "4 Items - Basic",
+        "fourItemsDesc": "Standard tab bar with 4 evenly distributed items",
+        "withIndicator": "With Home Indicator",
+        "withIndicatorDesc": "iOS-style home indicator for devices without physical home button",
+        "withFab": "With FAB",
+        "withFabDesc": "Floating action button overlays the center of the tab bar",
+        "fiveItems": "5 Items",
+        "fiveItemsDesc": "Tab bar can accommodate up to 5 items",
+        "allFeatures": "All Features Combined",
+        "allFeaturesDesc": "Tab bar with home indicator and FAB together"
+      }
+    },
+    "props": {
+      "items": "Array of tab items with icon and label",
+      "selectedIndex": "Index of the currently selected tab (0-based)",
+      "onTabChange": "Callback fired when a tab is clicked",
+      "showIndicator": "Display iOS home indicator below tabs",
+      "showFab": "Display floating action button in center",
+      "fabIcon": "Icon to display in the FAB button",
+      "onFabClick": "Callback fired when FAB is clicked",
+      "position": "Positioning mode: 'fixed' for bottom-fixed, 'demo' for documentation"
+    },
+    "types": {
+      "tabBarItem": "Tab item object with icon (ReactNode) and label (string)"
+    },
+    "guidelines": {
+      "dos": [
+        {
+          "text": "Use 4-5 tabs for optimal mobile navigation",
+          "textAr": "استخدم 4-5 علامات تبويب للتنقل الأمثل في الهاتف المحمول"
+        },
+        {
+          "text": "Keep labels short and descriptive (1-2 words)",
+          "textAr": "اجعل التسميات قصيرة ووصفية (1-2 كلمة)"
+        },
+        {
+          "text": "Use recognizable icons that match their labels",
+          "textAr": "استخدم أيقونات مميزة تتطابق مع تسمياتها"
+        },
+        {
+          "text": "Highlight the current tab with brand color",
+          "textAr": "ميز علامة التبويب الحالية بلون العلامة التجارية"
+        }
+      ],
+      "donts": [
+        {
+          "text": "Don't use more than 5 tabs",
+          "textAr": "لا تستخدم أكثر من 5 علامات تبويب"
+        },
+        {
+          "text": "Don't use long text that wraps to multiple lines",
+          "textAr": "لا تستخدم نصوصًا طويلة تمتد لأكثر من سطر"
+        },
+        {
+          "text": "Don't change tab order based on selection",
+          "textAr": "لا تغير ترتيب علامات التبويب بناءً على الاختيار"
+        },
+        {
+          "text": "Don't hide the tab bar when scrolling",
+          "textAr": "لا تخفي شريط علامات التبويب عند التمرير"
+        }
+      ]
+    }
+  },
+  "sectionHeaderPage": {
+    "title": "Section Header",
+    "description": "Section headers display section titles with optional supporting text, icons, and trailing actions. Comes in four different sizes.",
+    "category": "Navigation",
+    "items": {
+      "title": "Write title here",
+      "supportingText": "Write supporting text here",
+      "trailingAction": "Text Here"
+    },
+    "sections": {
+      "sizeVariants": {
+        "title": "Size Variants",
+        "description": "Section Header comes in four different sizes to fit various display contexts."
+      },
+      "optionalElements": {
+        "title": "Optional Elements",
+        "description": "Icons and trailing actions can be added as needed."
+      }
+    },
+    "sizes": {
+      "xl": "X-Large",
+      "lg": "Large",
+      "md": "Medium",
+      "sm": "Small"
+    },
+    "variants": {
+      "titleOnly": "Title Only",
+      "withLeadingIcon": "With Leading Icon",
+      "withHelpIcon": "With Help Icon",
+      "withTrailingAction": "With Trailing Action",
+      "withTrailingIcon": "With Trailing Icon",
+      "withSupportingText": "With Supporting Text",
+      "withSeparator": "With Separator",
+      "fullFeatured": "Full Featured"
+    },
+    "props": {
+      "title": "Main title text displayed in the header",
+      "supportingText": "Supporting description text below the title",
+      "size": "Size variant: xl (24px), lg (20px), md (16px), sm (14px)",
+      "leadingIcon": "Leading icon component displayed before the title",
+      "showHelpIcon": "Show help icon after the title",
+      "trailingAction": "Trailing action text (displayed as hyperlink)",
+      "onTrailingActionClick": "Callback when trailing action is clicked",
+      "trailingIcon": "Trailing icon component (e.g., menu icon)",
+      "showSeparator": "Show bottom separator line"
+    },
+    "guidelines": {
+      "dos": [
+        {
+          "text": "Use X-Large size for main page section headers",
+          "textAr": "استخدم الحجم الكبير جداً لرؤوس أقسام الصفحة الرئيسية"
+        },
+        {
+          "text": "Use Large size for sub-section headers",
+          "textAr": "استخدم الحجم الكبير لرؤوس الأقسام الفرعية"
+        },
+        {
+          "text": "Use Medium/Small sizes for compact UI areas",
+          "textAr": "استخدم الأحجام المتوسطة/الصغيرة للمناطق المدمجة"
+        },
+        {
+          "text": "Add supporting text for additional context",
+          "textAr": "أضف نص داعم لمزيد من السياق"
+        },
+        {
+          "text": "Use trailing action for 'See All' or 'View More' links",
+          "textAr": "استخدم الإجراء الثانوي لروابط 'عرض الكل' أو 'المزيد'"
+        }
+      ],
+      "donts": [
+        {
+          "text": "Don't use multiple trailing actions together",
+          "textAr": "لا تستخدم إجراءات ثانوية متعددة معاً"
+        },
+        {
+          "text": "Don't overcrowd with too many elements",
+          "textAr": "لا تكدس بالكثير من العناصر"
+        },
+        {
+          "text": "Don't use small size for main page headers",
+          "textAr": "لا تستخدم الحجم الصغير لرؤوس الصفحات الرئيسية"
+        },
+        {
+          "text": "Don't hide important navigation in trailing icons",
+          "textAr": "لا تخفِ التنقل المهم في الأيقونات الثانوية"
+        }
+      ]
+    }
+  },
+  "actionHeaderPage": {
+    "title": "Action Header",
+    "description": "A horizontal toolbar with composable left content and fixed action buttons on the right.",
+    "category": "Navigation",
+    "items": {
+      "dropdownLabel": "This Month",
+      "actionLabel": "Export",
+      "overview": "Overview",
+      "orders": "Orders",
+      "sales": "Sales"
+    },
+    "sections": {
+      "examples": {
+        "title": "Examples",
+        "description": "Action Header is flexible and can be used with different types of content.",
+        "withTabs": "With Tabs",
+        "withoutLeftContent": "Without Left Content",
+        "withCustomIcons": "With Custom Icons",
+        "withSeparator": "With Separator",
+        "actionWithoutIcon": "Action Without Icon"
+      }
+    },
+    "props": {
+      "children": "Left content slot for tabs, navigation, or custom content",
+      "dropdownLabel": "Label text for the dropdown button",
+      "dropdownIcon": "Custom icon for dropdown button (default: ArrowDown2)",
+      "onDropdownClick": "Callback when dropdown button is clicked",
+      "actionLabel": "Label text for the primary action button",
+      "actionIcon": "Icon for the action button (displayed before label)",
+      "onActionClick": "Callback when action button is clicked",
+      "showSeparator": "Show bottom separator line"
+    },
+    "guidelines": {
+      "dos": [
+        {
+          "text": "Use for dashboard headers with filters and actions",
+          "textAr": "استخدم لرؤوس لوحة التحكم مع المرشحات والإجراءات"
+        },
+        {
+          "text": "Combine with Tabs component for navigation",
+          "textAr": "ادمج مع مكون التبويبات للتنقل"
+        },
+        {
+          "text": "Use clear, action-oriented labels for buttons",
+          "textAr": "استخدم تسميات واضحة وموجهة للإجراء للأزرار"
+        },
+        {
+          "text": "Include icons for better visual recognition",
+          "textAr": "أضف أيقونات للتعرف البصري الأفضل"
+        }
+      ],
+      "donts": [
+        {
+          "text": "Don't overload with too many tabs",
+          "textAr": "لا تفرط في استخدام عدد كبير من التبويبات"
+        },
+        {
+          "text": "Don't use vague labels like 'Click Here'",
+          "textAr": "لا تستخدم تسميات غامضة مثل 'انقر هنا'"
+        },
+        {
+          "text": "Don't hide the primary action button",
+          "textAr": "لا تخفِ زر الإجراء الرئيسي"
+        },
+        {
+          "text": "Don't use on narrow mobile screens without adapting",
+          "textAr": "لا تستخدم على شاشات الجوال الضيقة بدون تكييف"
+        }
+      ]
+    }
+  },
+  "pageHeaderPage": {
+    "title": "Page Header",
+    "description": "A page header component with breadcrumbs, title, description, actions, search, and tabs. Supports responsive layout for mobile and desktop.",
+    "category": "Navigation",
+    "items": {
+      "title": "Project Settings",
+      "supportingText": "Manage your project settings and preferences",
+      "tag": "New",
+      "cancel": "Cancel",
+      "save": "Save Changes"
+    },
+    "sections": {
+      "examples": {
+        "title": "Examples",
+        "description": "Page Header is flexible and can be customized for various use cases.",
+        "basicWithBreadcrumbs": "Basic with Breadcrumbs",
+        "withActions": "With Actions",
+        "withTag": "With Tag",
+        "withLeadingImage": "With Leading Image",
+        "withSearchAndTabs": "With Search and Tabs",
+        "mobileLayout": "Mobile Layout"
+      }
+    },
+    "props": {
+      "title": "Page title text",
+      "supportingText": "Supporting description below the title",
+      "breadcrumbs": "Array of breadcrumb items for navigation",
+      "showBreadcrumbs": "Show breadcrumbs navigation",
+      "tag": "Tag text to display beside the title",
+      "showTag": "Show tag badge beside title",
+      "leading": "Leading element variant",
+      "leadingImage": "URL for the leading image (when leading='image')",
+      "leadingImageAlt": "Alt text for the leading image",
+      "actions": "Action buttons slot",
+      "showActions": "Show actions section",
+      "showSearch": "Show search input field",
+      "searchPlaceholder": "Placeholder text for search input",
+      "searchValue": "Controlled search input value",
+      "onSearchChange": "Callback when search value changes",
+      "tabs": "Tabs slot for tab navigation",
+      "showTabs": "Show tabs section",
+      "showSeparator": "Show bottom separator line",
+      "breakpoint": "Responsive breakpoint for layout adaptation"
+    },
+    "guidelines": {
+      "dos": [
+        {
+          "text": "Use breadcrumbs for navigation context",
+          "textAr": "استخدم فتات الخبز لسياق التنقل"
+        },
+        {
+          "text": "Place primary actions on the right side",
+          "textAr": "ضع الإجراءات الرئيسية على الجانب الأيمن"
+        },
+        {
+          "text": "Use supporting text for page description",
+          "textAr": "استخدم النص الداعم لوصف الصفحة"
+        },
+        {
+          "text": "Use tags for status or categories",
+          "textAr": "استخدم الوسوم للحالة أو الفئات"
+        },
+        {
+          "text": "Adapt layout for mobile using breakpoint prop",
+          "textAr": "كيّف التخطيط للجوال باستخدام خاصية نقطة القطع"
+        }
+      ],
+      "donts": [
+        {
+          "text": "Don't use overly long titles",
+          "textAr": "لا تستخدم عناوين طويلة جدًا"
+        },
+        {
+          "text": "Don't add too many action buttons",
+          "textAr": "لا تضف الكثير من أزرار الإجراءات"
+        },
+        {
+          "text": "Don't hide important navigation breadcrumbs",
+          "textAr": "لا تخفِ فتات الخبز المهمة للتنقل"
+        },
+        {
+          "text": "Don't use search without a clear purpose",
+          "textAr": "لا تستخدم البحث بدون هدف واضح"
+        }
+      ]
+    }
+  },
+  "stepperPage": {
+    "title": "Stepper",
+    "description": "Steppers display progress through a sequence of logical and numbered steps. Supports horizontal and vertical layouts.",
+    "category": "Navigation",
+    "items": {
+      "account": "Account",
+      "accountDesc": "Create your account",
+      "profile": "Profile",
+      "profileDesc": "Set up your profile",
+      "complete": "Complete",
+      "completeDesc": "Review and finish",
+      "cart": "Cart",
+      "cartDesc": "Review items",
+      "shipping": "Shipping",
+      "shippingDesc": "Delivery details",
+      "payment": "Payment",
+      "paymentDesc": "Payment method",
+      "confirm": "Confirm",
+      "confirmDesc": "Place order"
+    },
+    "sections": {
+      "examples": {
+        "title": "Examples",
+        "description": "Stepper is flexible and can be used in different contexts to display progress.",
+        "horizontalDefault": "Horizontal (Default)",
+        "vertical": "Vertical",
+        "smallSize": "Small Size",
+        "withoutDescriptions": "Without Descriptions",
+        "withErrorState": "With Error State",
+        "clickableSteps": "Clickable Steps",
+        "allCompleted": "All Steps Completed",
+        "verticalSmall": "Vertical Small"
+      }
+    },
+    "props": {
+      "steps": "Array of step items to display",
+      "activeStep": "Current active step index (0-based)",
+      "orientation": "Stepper orientation layout",
+      "size": "Size of step indicators",
+      "showDescription": "Show step descriptions",
+      "clickableSteps": "Allow clicking steps to navigate",
+      "onStepClick": "Callback when a step is clicked (requires clickableSteps)",
+      "title": "Step title text",
+      "description": "Optional description below the title",
+      "error": "Mark step as having an error"
+    },
+    "guidelines": {
+      "dos": [
+        {
+          "text": "Use for multi-step processes like checkouts, forms, or wizards",
+          "textAr": "استخدم للعمليات متعددة الخطوات مثل الدفع والنماذج والمعالجات"
+        },
+        {
+          "text": "Show completion state clearly with checkmarks",
+          "textAr": "أظهر حالة الإكمال بوضوح مع علامات الصح"
+        },
+        {
+          "text": "Allow going back to previous steps when possible",
+          "textAr": "اسمح بالعودة للخطوات السابقة عند الإمكان"
+        },
+        {
+          "text": "Keep step titles concise and descriptive",
+          "textAr": "اجعل عناوين الخطوات موجزة ووصفية"
+        },
+        {
+          "text": "Use vertical orientation for narrow spaces or many steps",
+          "textAr": "استخدم الاتجاه العمودي للمساحات الضيقة أو الخطوات الكثيرة"
+        }
+      ],
+      "donts": [
+        {
+          "text": "Don't use for unrelated content (use tabs instead)",
+          "textAr": "لا تستخدم للمحتوى غير المترابط (استخدم التبويبات بدلاً منه)"
+        },
+        {
+          "text": "Don't have too many steps (ideally 3-5)",
+          "textAr": "لا تضع الكثير من الخطوات (3-5 مثالياً)"
+        },
+        {
+          "text": "Don't skip steps without user confirmation",
+          "textAr": "لا تتخطى الخطوات بدون تأكيد المستخدم"
+        },
+        {
+          "text": "Don't use vague step titles",
+          "textAr": "لا تستخدم عناوين خطوات غامضة"
+        }
+      ]
+    }
+  },
+  "paginationPage": {
+    "title": "Pagination",
+    "description": "Pagination enables navigation between pages of content. Supports records count display, items per page selector, and multiple layout variants.",
+    "category": "Navigation",
+    "sections": {
+      "examples": {
+        "title": "Examples",
+        "description": "Pagination is flexible and can be used in different contexts.",
+        "filledStyle": "Filled Style (Default)",
+        "outlinedStyle": "Outlined Style",
+        "fullFeatured": "Full Featured (Records + Items/Page)",
+        "withRecordsInfo": "With Records Info Only",
+        "withItemsPerPage": "With Items Per Page Only",
+        "numbersOnly": "Numbers Only (Simple)",
+        "compactVariant": "Compact Variant",
+        "smallSize": "Small Size",
+        "firstPage": "First Page",
+        "lastPage": "Last Page",
+        "manyPages": "Many Pages",
+        "disabledState": "Disabled State"
+      }
+    },
+    "props": {
+      "currentPage": "Current active page (1-indexed)",
+      "totalPages": "Total number of pages",
+      "onPageChange": "Callback when page changes",
+      "totalRecords": "Total number of records/items (for records info display)",
+      "itemsPerPage": "Number of items per page",
+      "itemsPerPageOptions": "Available options for items per page dropdown",
+      "onItemsPerPageChange": "Callback when items per page changes",
+      "showRecordsInfo": "Show records count info (e.g., '1-10 of 100')",
+      "showItemsPerPage": "Show items per page selector",
+      "itemsPerPageLabel": "Label for items per page dropdown",
+      "variant": "Layout variant - numbers shows page buttons, compact shows page info",
+      "buttonStyle": "Visual style - filled has solid background, outlined has border only",
+      "size": "Size of pagination buttons",
+      "siblingCount": "Number of sibling pages to show on each side of current",
+      "showFirstLast": "Always show first and last page",
+      "disabled": "Disable all pagination controls"
+    },
+    "guidelines": {
+      "dos": [
+        {
+          "text": "Show current page clearly with visual distinction",
+          "textAr": "أظهر الصفحة الحالية بوضوح مع تمييز بصري"
+        },
+        {
+          "text": "Use compact variant for mobile or limited space",
+          "textAr": "استخدم النوع المضغوط للجوال أو المساحات المحدودة"
+        },
+        {
+          "text": "Show total page count for user orientation",
+          "textAr": "أظهر إجمالي عدد الصفحات لتوجيه المستخدم"
+        },
+        {
+          "text": "Disable navigation buttons at boundaries",
+          "textAr": "عطّل أزرار التنقل عند الحدود"
+        },
+        {
+          "text": "Use ellipsis to indicate skipped pages",
+          "textAr": "استخدم علامات الحذف للإشارة إلى الصفحات المتخطاة"
+        }
+      ],
+      "donts": [
+        {
+          "text": "Don't show too many page numbers at once",
+          "textAr": "لا تظهر الكثير من أرقام الصفحات في وقت واحد"
+        },
+        {
+          "text": "Don't use for infinite scroll content",
+          "textAr": "لا تستخدم للمحتوى اللانهائي"
+        },
+        {
+          "text": "Don't hide the current page indicator",
+          "textAr": "لا تخفِ مؤشر الصفحة الحالية"
+        },
+        {
+          "text": "Don't use pagination for very few items",
+          "textAr": "لا تستخدم الترقيم لعناصر قليلة جدًا"
+        }
+      ]
+    }
+  },
+  "snackbarPage": {
+    "title": "Snackbar",
+    "description": "Snackbars provide brief messages at the bottom of the screen. Supports multiple status variants, optional icons, and action buttons.",
+    "category": "Feedback",
+    "sections": {
+      "examples": {
+        "title": "Examples",
+        "description": "Snackbars are flexible and can be used in different contexts.",
+        "statusVariants": "Status Variants",
+        "withoutIcon": "Without Icon",
+        "withoutAction": "Without Action Button",
+        "dismissible": "Dismissible"
+      }
+    },
+    "props": {
+      "message": "The snackbar message text",
+      "status": "Status determines the background color and default icon",
+      "showLeadingIcon": "Whether to show the leading status icon",
+      "icon": "Custom icon to override the default status icon",
+      "actionLabel": "Label for the action button",
+      "onAction": "Callback when action button is clicked",
+      "dismissible": "Whether the snackbar can be dismissed",
+      "onDismiss": "Callback when dismiss button is clicked"
+    },
+    "guidelines": {
+      "dos": [
+        {
+          "text": "Auto-dismiss after a few seconds for non-critical messages",
+          "textAr": "إغلاق تلقائي بعد ثوانٍ للرسائل غير الحرجة"
+        },
+        {
+          "text": "Include an undo action for destructive operations",
+          "textAr": "تضمين إجراء التراجع للعمليات التدميرية"
+        },
+        {
+          "text": "Keep messages brief and actionable",
+          "textAr": "اجعل الرسائل موجزة وقابلة للتنفيذ"
+        },
+        {
+          "text": "Use appropriate status colors for context",
+          "textAr": "استخدم ألوان الحالة المناسبة للسياق"
+        }
+      ],
+      "donts": [
+        {
+          "text": "Don't stack multiple snackbars at once",
+          "textAr": "لا تكدس عدة إشعارات في وقت واحد"
+        },
+        {
+          "text": "Don't use for critical errors requiring user action",
+          "textAr": "لا تستخدم للأخطاء الحرجة التي تتطلب إجراء المستخدم"
+        },
+        {
+          "text": "Don't include lengthy text or multiple paragraphs",
+          "textAr": "لا تضمن نصوصاً طويلة أو فقرات متعددة"
+        }
+      ]
+    }
+  },
+  "messagePage": {
+    "title": "Message",
+    "description": "Messages display empty states, informational content, or contextual feedback with artwork, title, and description.",
+    "category": "Feedback",
+    "sections": {
+      "examples": {
+        "title": "Examples",
+        "description": "Message is flexible and can be used for empty states, success confirmations, and informational content.",
+        "sizeVariants": "Size Variants",
+        "typeVariants": "Type Variants",
+        "artworkTypes": "Artwork Types",
+        "alignmentVariants": "Alignment Variants",
+        "titleOnly": "Title Only",
+        "withoutArtwork": "Without Artwork"
+      }
+    },
+    "props": {
+      "title": "Main heading text",
+      "supportingText": "Description/body text",
+      "showTitle": "Show/hide title",
+      "showSupportingText": "Show/hide description",
+      "showArtwork": "Show/hide artwork area",
+      "artwork": "Type of artwork to display",
+      "artworkSrc": "Image URL for illustration/image artwork types",
+      "icon": "Custom icon for icon artwork type",
+      "size": "Size variant",
+      "type": "Primary (transparent) or Secondary (with background)",
+      "alignment": "Content alignment"
+    },
+    "guidelines": {
+      "dos": [
+        {
+          "text": "Use for empty states in lists, tables, or search results",
+          "textAr": "استخدم للحالات الفارغة في القوائم والجداول ونتائج البحث"
+        },
+        {
+          "text": "Include a clear call-to-action when appropriate",
+          "textAr": "قم بتضمين دعوة واضحة للعمل عند الاقتضاء"
+        },
+        {
+          "text": "Use illustrations that match the context and brand",
+          "textAr": "استخدم الرسوم التوضيحية التي تتوافق مع السياق والعلامة التجارية"
+        },
+        {
+          "text": "Keep messages concise and helpful",
+          "textAr": "اجعل الرسائل موجزة ومفيدة"
+        }
+      ],
+      "donts": [
+        {
+          "text": "Don't use for error states that require user action",
+          "textAr": "لا تستخدم لحالات الخطأ التي تتطلب إجراء المستخدم"
+        },
+        {
+          "text": "Don't overload with too much text",
+          "textAr": "لا تفرط في استخدام النص"
+        },
+        {
+          "text": "Don't use generic illustrations that don't match context",
+          "textAr": "لا تستخدم رسومات توضيحية عامة لا تتطابق مع السياق"
+        }
+      ]
+    }
+  },
+  "sideMenuPage": {
+    "title": "Side Menu",
+    "description": "Vertical navigation component for desktop applications. Supports expanded and collapsed states with sections, badges, and logout functionality.",
+    "category": "Navigation",
+    "items": {
+      "dashboard": "Dashboard",
+      "users": "Users",
+      "documents": "Documents",
+      "analytics": "Analytics",
+      "wallet": "Wallet",
+      "orders": "Orders",
+      "notifications": "Notifications",
+      "settings": "Settings",
+      "help": "Help & Support"
+    },
+    "props": {
+      "expanded": "Controls expanded (full width) or collapsed (icon only) state",
+      "onToggle": "Callback when toggle button is clicked",
+      "children": "Children (SideMenuHeader, SideMenuSection, SideMenuLogout)",
+      "icon": "Icon component (iconsax-react)",
+      "label": "Menu item label text",
+      "active": "Whether item is currently active/selected",
+      "badge": "Badge count (notification count)",
+      "hasSubmenu": "Whether item has a submenu (shows chevron)",
+      "onClick": "Callback when item is clicked",
+      "disabled": "Disabled state",
+      "sectionTitle": "Optional section title (shown in expanded mode only)",
+      "sectionChildren": "Children (SideMenuItem components)"
+    },
+    "guidelines": {
+      "dos": {
+        "desktop": "Use for desktop app navigation",
+        "collapse": "Collapse to icons on smaller screens",
+        "group": "Group related items in sections",
+        "active": "Show active item clearly"
+      },
+      "donts": {
+        "mobile": "Don't show on mobile (use drawer instead)",
+        "nest": "Don't nest too deeply",
+        "icons": "Don't use inconsistent icons"
+      }
+    }
+  }
+}

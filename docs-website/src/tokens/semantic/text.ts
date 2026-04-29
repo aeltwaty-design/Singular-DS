@@ -1,0 +1,163 @@
+/**
+ * Text Color Semantic Tokens
+ */
+
+import type { SemanticToken } from '../types';
+
+export const textTokens: SemanticToken[] = [
+  {
+    name: 'text-primary',
+    light: 'gray-900',
+    dark: 'gray-50',
+    description: 'Primary text such as page headings.',
+    descriptionAr: 'النص الأساسي مثل عناوين الصفحات.',
+  },
+  {
+    name: 'text-primary_on-brand',
+    light: 'white',
+    dark: 'gray-50',
+    description: 'Primary text when used on solid brand color backgrounds. Commonly used for brand theme website sections (e.g. CTA sections).',
+    descriptionAr: 'النص الأساسي عند استخدامه على خلفيات ألوان العلامة التجارية.',
+  },
+  {
+    name: 'text-secondary',
+    light: 'gray-700',
+    dark: 'gray-300',
+    description: 'Secondary text such as labels and section headings.',
+    descriptionAr: 'النص الثانوي مثل التسميات وعناوين الأقسام.',
+  },
+  {
+    name: 'text-secondary_hover',
+    light: 'gray-800',
+    dark: 'gray-200',
+    description: 'Secondary text when in hover state.',
+    descriptionAr: 'النص الثانوي في حالة التمرير.',
+  },
+  {
+    name: 'text-secondary_on-brand',
+    light: 'primary-200',
+    dark: 'gray-300',
+    description: 'Secondary text when used on solid brand color backgrounds.',
+    descriptionAr: 'النص الثانوي عند استخدامه على خلفيات ألوان العلامة التجارية.',
+  },
+  {
+    name: 'text-tertiary',
+    light: 'gray-600',
+    dark: 'gray-400',
+    description: 'Tertiary text such as supporting text and paragraph text.',
+    descriptionAr: 'النص الثالثي مثل النص الداعم ونص الفقرات.',
+  },
+  {
+    name: 'text-tertiary_hover',
+    light: 'gray-700',
+    dark: 'gray-300',
+    description: 'Tertiary text when in hover state.',
+    descriptionAr: 'النص الثالثي في حالة التمرير.',
+  },
+  {
+    name: 'text-tertiary_on-brand',
+    light: 'primary-200',
+    dark: 'gray-400',
+    description: 'Tertiary text when used on solid brand color backgrounds.',
+    descriptionAr: 'النص الثالثي عند استخدامه على خلفيات ألوان العلامة التجارية.',
+  },
+  {
+    name: 'text-quaternary',
+    light: 'gray-500',
+    dark: 'gray-400',
+    description: 'Quaternary text for more subtle and lower-contrast text, such as footer column headings.',
+    descriptionAr: 'النص الرباعي للنصوص الأكثر دقة وأقل تباينًا.',
+  },
+  {
+    name: 'text-quaternary_on-brand',
+    light: 'primary-300',
+    dark: 'gray-400',
+    description: 'Quaternary text when used on solid brand color backgrounds.',
+    descriptionAr: 'النص الرباعي عند استخدامه على خلفيات ألوان العلامة التجارية.',
+  },
+  {
+    name: 'text-white',
+    light: 'white',
+    dark: 'white',
+    description: 'Text that is always white, regardless of the mode.',
+    descriptionAr: 'النص الذي يكون دائمًا أبيض بغض النظر عن الوضع.',
+  },
+  {
+    name: 'text-disabled',
+    light: 'gray-500',
+    dark: 'gray-500',
+    description: 'Default color for disabled text such as disabled input fields or buttons.',
+    descriptionAr: 'اللون الافتراضي للنص المعطل مثل حقول الإدخال أو الأزرار المعطلة.',
+  },
+  {
+    name: 'text-placeholder',
+    light: 'gray-500',
+    dark: 'gray-400',
+    description: 'Default color for placeholder text such as input field placeholders.',
+    descriptionAr: 'اللون الافتراضي لنص العنصر النائب مثل العناصر النائبة في حقول الإدخال.',
+  },
+  {
+    name: 'text-placeholder_subtle',
+    light: 'gray-300',
+    dark: 'gray-700',
+    description: 'A more subtle (lower contrast) alternative placeholder text.',
+    descriptionAr: 'نص عنصر نائب بديل أكثر دقة (تباين أقل).',
+  },
+  {
+    name: 'text-brand-primary',
+    light: 'gray-900',
+    dark: 'gray-50',
+    description: 'Primary brand text useful for headings.',
+    descriptionAr: 'نص العلامة التجارية الأساسي مفيد للعناوين.',
+  },
+  {
+    name: 'text-brand-secondary',
+    light: 'primary-700',
+    dark: 'gray-300',
+    description: 'Secondary brand text for brand buttons, accented text, and highlights.',
+    descriptionAr: 'نص العلامة التجارية الثانوي لأزرار العلامة التجارية والنصوص المميزة.',
+  },
+  {
+    name: 'text-brand-secondary_hover',
+    light: 'primary-800',
+    dark: 'gray-300',
+    description: 'Secondary brand text when in hover state.',
+    descriptionAr: 'نص العلامة التجارية الثانوي في حالة التمرير.',
+  },
+  {
+    name: 'text-brand-tertiary',
+    light: 'primary-600',
+    dark: 'gray-400',
+    description: 'Tertiary brand text for lighter accented text and highlights.',
+    descriptionAr: 'نص العلامة التجارية الثالثي للنصوص المميزة الأخف.',
+  },
+  {
+    name: 'text-brand-tertiary_alt',
+    light: 'primary-600',
+    dark: 'gray-50',
+    description: 'An alternative to tertiary brand text that is lighter in dark mode.',
+    descriptionAr: 'بديل لنص العلامة التجارية الثالثي يكون أفتح في الوضع الداكن.',
+  },
+  {
+    name: 'text-error-primary',
+    light: 'error-600',
+    dark: 'error-400',
+    description: 'Default error state semantic text color.',
+    descriptionAr: 'لون النص الدلالي لحالة الخطأ الافتراضية.',
+  },
+  {
+    name: 'text-warning-primary',
+    light: 'warning-600',
+    dark: 'warning-400',
+    description: 'Default warning state semantic text color.',
+    descriptionAr: 'لون النص الدلالي لحالة التحذير الافتراضية.',
+  },
+  {
+    name: 'text-success-primary',
+    light: 'success-600',
+    dark: 'success-400',
+    description: 'Default success state semantic text color.',
+    descriptionAr: 'لون النص الدلالي لحالة النجاح الافتراضية.',
+  },
+];
+

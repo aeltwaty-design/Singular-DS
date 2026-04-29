@@ -1,0 +1,47 @@
+/**
+ * WalaPlus Brand Configuration
+ */
+
+import type { Brand } from '../types';
+
+export const walaplus: Brand = {
+  id: 'walaplus',
+  name: 'WalaPlus',
+  nameAr: 'والا بلس',
+  logo: '/logo.svg',
+  primary: {
+    25: '#E6FBF4',
+    50: '#CCF7E9',
+    100: '#99EFCC',
+    200: '#66E7B8',
+    300: '#33DEA3',
+    400: '#1AD997',
+    500: '#00CE8B',
+    600: '#00B87D',
+    700: '#009B69',
+    800: '#007D55',
+    900: '#005F41',
+    950: '#003D2A',
+  },
+  secondary: {
+    25: '#FFF0E6',
+    50: '#FFE1CC',
+    100: '#FFC299',
+    200: '#FFA366',
+    300: '#FF8433',
+    400: '#FF751D',
+    500: '#FF6608',
+    600: '#E65C07',
+    700: '#CC5206',
+    800: '#B34705',
+    900: '#993D04',
+    950: '#662903',
+  },
+  colors: {
+    primary: '#00CE8B',
+    secondary: '#FF6608',
+    primaryLight: '#99EFCC',
+    primaryDark: '#009B69',
+  },
+};
+

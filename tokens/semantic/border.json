@@ -1,0 +1,12 @@
+[
+  { "name": "border-primary", "light": "gray-300", "dark": "gray-700", "description": "High contrast borders for inputs and checkboxes.", "descriptionAr": "حدود عالية التباين للمكونات." },
+  { "name": "border-secondary", "light": "gray-200", "dark": "gray-800", "description": "Medium contrast borders for cards and dividers.", "descriptionAr": "حدود متوسطة التباين." },
+  { "name": "border-secondary_alt", "light": "#00000014", "dark": "gray-800", "description": "Alt secondary border with alpha for floating menus.", "descriptionAr": "بديل للحدود الثانوية." },
+  { "name": "border-tertiary", "light": "gray-100", "dark": "gray-800", "description": "Low contrast borders for subtle dividers.", "descriptionAr": "حدود منخفضة التباين." },
+  { "name": "border-disabled", "light": "gray-300", "dark": "gray-700", "description": "Disabled border.", "descriptionAr": "لون الحدود المعطل." },
+  { "name": "border-disabled_subtle", "light": "gray-200", "dark": "gray-800", "description": "Subtle disabled border.", "descriptionAr": "بديل أكثر دقة للحدود المعطلة." },
+  { "name": "border-brand", "light": "primary-500", "dark": "primary-400", "description": "Brand border for active states.", "descriptionAr": "لون حدود العلامة التجارية." },
+  { "name": "border-brand_alt", "light": "primary-600", "dark": "gray-700", "description": "Brand border that switches to gray in dark.", "descriptionAr": "لون حدود العلامة التجارية البديل." },
+  { "name": "border-error", "light": "error-500", "dark": "error-400", "description": "Error border.", "descriptionAr": "لون حدود الخطأ." },
+  { "name": "border-error_subtle", "light": "error-300", "dark": "error-500", "description": "Subtle error border.", "descriptionAr": "بديل أكثر دقة لحدود الخطأ." }
+]

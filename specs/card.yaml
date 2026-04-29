@@ -1,0 +1,47 @@
+name: Card
+category: data-display
+status: stable
+description: Container for related content and actions.
+descriptionAr: حاوية للمحتوى والإجراءات ذات الصلة.
+
+variants:
+  type:
+    values: [stacked, horizontal]
+    default: stacked
+    description: Layout orientation.
+
+props:
+  elevation:
+    type: number
+    default: 0
+    description: Shadow level (0-4).
+  padding:
+    type: spacing
+    required: false
+    description: Internal padding override.
+  onTap:
+    type: callback
+    required: false
+    description: Click/tap handler.
+    react_name: onClick
+
+sub_components:
+  - CardHeader
+  - CardMedia
+  - CardTag
+  - CardHeadline
+  - CardSupportingText
+  - CardActions
+  - CardLink
+  - CardContent
+  - CardFooter
+
+tokens:
+  background: bg-primary
+  border: border-secondary
+  border-radius: md
+
+naming:
+  flutter_class: SingularCard
+  react_export: Card
+  figma_name: Card

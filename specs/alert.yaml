@@ -1,0 +1,54 @@
+name: Alert
+category: feedback
+status: stable
+description: Contextual feedback messages for user actions or system status.
+descriptionAr: رسائل ردود الفعل السياقية لإجراءات المستخدم أو حالة النظام.
+
+variants:
+  status:
+    values: [error, warning, success, info]
+    default: info
+    description: Semantic status determining color and icon.
+  style:
+    values: [sharp, rounded]
+    default: rounded
+    description: Border radius style.
+
+props:
+  title:
+    type: string
+    required: true
+    description: Alert heading text.
+  description:
+    type: string
+    required: false
+    description: Supporting body text.
+    flutter_name: message
+  showIcon:
+    type: boolean
+    default: true
+    description: Show status icon.
+  icon:
+    type: icon
+    required: false
+    description: Custom override icon.
+  action:
+    type: widget
+    required: false
+    description: Trailing action (button or link).
+  onDismiss:
+    type: callback
+    required: false
+    description: Dismiss handler. Shows close button when provided.
+
+tokens:
+  background: bg-{status}-primary
+  text_title: text-primary
+  text_description: text-tertiary
+  icon: fg-{status}-primary
+  border: border-{status} (when style is sharp)
+
+naming:
+  flutter_class: SingularAlert
+  react_export: Alert
+  figma_name: Alert

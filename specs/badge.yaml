@@ -1,0 +1,34 @@
+name: Badge
+category: data-display
+status: stable
+description: Small status indicator typically used for notification counts.
+descriptionAr: مؤشر حالة صغير يستخدم عادة لعدد الإشعارات.
+
+variants:
+  color:
+    values: [red, green, blue, blue-light, gray]
+    default: red
+  size:
+    values:
+      sm: { dimension: 8 }
+      lg: { dimension: 22 }
+    default: lg
+
+props:
+  value:
+    type: number | string
+    required: false
+    description: Content displayed in the badge.
+  maxValue:
+    type: number
+    default: 99
+    description: Maximum value before showing overflow indicator (e.g. "99+").
+
+tokens:
+  background: determined by color variant
+  text: text-white
+
+naming:
+  flutter_class: SingularBadge
+  react_export: Badge
+  figma_name: Badge
