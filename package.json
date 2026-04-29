@@ -1,0 +1,28 @@
+{
+  "name": "singular",
+  "version": "1.0.0",
+  "description": "A multi-brand, scalable Design System for **WalaPlus**, **WalaOne**, and **Doam** products on Mobile and Web.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeltwaty-design/Singular-DS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aeltwaty-design/Singular-DS/issues"
+  },
+  "homepage": "https://github.com/aeltwaty-design/Singular-DS#readme",
+  "dependencies": {
+    "iconsax-react": "^0.0.8"
+  }
+}
