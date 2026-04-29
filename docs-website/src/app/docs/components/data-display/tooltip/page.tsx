@@ -212,7 +212,7 @@ export default function TooltipPage() {
               <IconButton 
                 icon={<Setting2 variant="Linear" size={20} />} 
                 label="Settings"
-                variant="ghost"
+                variant="tertiary"
               />
             </SimpleTooltip>
             
@@ -220,7 +220,7 @@ export default function TooltipPage() {
               <IconButton 
                 icon={<MessageQuestion variant="Linear" size={20} />} 
                 label="Help"
-                variant="ghost"
+                variant="tertiary"
               />
             </SimpleTooltip>
             
@@ -228,7 +228,7 @@ export default function TooltipPage() {
               <IconButton 
                 icon={<Notification variant="Linear" size={20} />} 
                 label="Notifications"
-                variant="ghost"
+                variant="tertiary"
               />
             </SimpleTooltip>
             
@@ -236,7 +236,7 @@ export default function TooltipPage() {
               <IconButton 
                 icon={<InfoCircle variant="Linear" size={20} />} 
                 label="Info"
-                variant="ghost"
+                  variant="tertiary"
               />
             </SimpleTooltip>
           </div>
