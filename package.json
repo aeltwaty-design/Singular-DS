@@ -24,6 +24,7 @@
   "homepage": "https://github.com/aeltwaty-design/Singular-DS#readme",
   "dependencies": {
     "class-variance-authority": "^0.7.1",
-    "iconsax-react": "^0.0.8"
+    "iconsax-react": "^0.0.8",
+    "tailwind-merge": "^3.5.0"
   }
 }
