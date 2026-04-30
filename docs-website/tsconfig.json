@@ -22,6 +22,8 @@
       }
     ],
     "paths": {
+      "@singular/react": ["../packages/react/src"],
+      "@singular/react/*": ["../packages/react/src/*"],
       "@/*": [
         "./src/*"
       ]

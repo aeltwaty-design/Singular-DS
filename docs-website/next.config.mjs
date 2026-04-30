@@ -1,11 +1,10 @@
 import createNextIntlPlugin from 'next-intl/plugin';
 import { createRequire } from "module";
+import path from "path";
 
 const require = createRequire(import.meta.url);
-
 const withNextIntl = createNextIntlPlugin();
 
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
@@ -16,6 +15,7 @@ const nextConfig = {
   reactStrictMode: true,
   webpack: (config) => {
     config.resolve.alias["iconsax-react"] = require.resolve("iconsax-react");
+    config.resolve.alias["@singular/react"] = path.resolve(process.cwd(), "../packages/react/src");
     return config;
   },
 };
